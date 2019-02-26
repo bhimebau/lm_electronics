@@ -420,7 +420,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 6000 9500 6000
 $Comp
-L SamacSys_Parts:TSL25911FN IC1
+L light_monitor-rescue:TSL25911FN-SamacSys_Parts IC1
 U 1 1 5C6C255C
 P 8500 5900
 F 0 "IC1" H 9350 6200 50  0000 L CNN
@@ -436,7 +436,7 @@ F 8 "TSL25911FN" H 9350 5400 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L switch-mode-supply:TPS610986 U3
+L light_monitor-rescue:TPS610986-switch-mode-supply U3
 U 1 1 5C6ED59E
 P 4450 4500
 F 0 "U3" H 4450 4865 50  0000 C CNN
@@ -695,7 +695,7 @@ Wire Wire Line
 	3000 4050 3000 4000
 Connection ~ 4200 3500
 $Comp
-L bhimebau_rtc:RV-8803-C7 U5
+L light_monitor-rescue:RV-8803-C7-bhimebau_rtc U5
 U 1 1 5C73D671
 P 9000 4850
 F 0 "U5" H 8975 5265 50  0000 C CNN
@@ -970,7 +970,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3100 1600 3250
 $Comp
-L bhimebau-lens:board_lens X1
+L light_monitor-rescue:board_lens-bhimebau-lens X1
 U 1 1 5C703045
 P 10350 6000
 F 0 "X1" H 10528 6046 50  0000 L CNN
