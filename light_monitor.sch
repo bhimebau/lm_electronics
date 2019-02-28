@@ -175,7 +175,6 @@ NoConn ~ 9600 2500
 NoConn ~ 9600 2600
 NoConn ~ 8600 3000
 NoConn ~ 8600 2700
-NoConn ~ 8600 2400
 Text Label 8600 3100 2    50   ~ 0
 SWO
 Wire Wire Line
@@ -1142,4 +1141,45 @@ $EndComp
 NoConn ~ 9600 2400
 NoConn ~ 9600 2200
 NoConn ~ 9600 2300
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5C784022
+P 7550 2400
+F 0 "J4" H 7656 2678 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7656 2587 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 7550 2400 50  0001 C CNN
+F 3 "~" H 7550 2400 50  0001 C CNN
+	1    7550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2400 8600 2400
+$Comp
+L power:GND #PWR030
+U 1 1 5C7889D8
+P 7750 2600
+F 0 "#PWR030" H 7750 2350 50  0001 C CNN
+F 1 "GND" H 7755 2427 50  0000 C CNN
+F 2 "" H 7750 2600 50  0001 C CNN
+F 3 "" H 7750 2600 50  0001 C CNN
+	1    7750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR031
+U 1 1 5C788A27
+P 8150 2250
+F 0 "#PWR031" H 8150 2100 50  0001 C CNN
+F 1 "VDD" H 8167 2423 50  0000 C CNN
+F 2 "" H 8150 2250 50  0001 C CNN
+F 3 "" H 8150 2250 50  0001 C CNN
+	1    8150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2300 8150 2300
+Wire Wire Line
+	8150 2300 8150 2250
+Wire Wire Line
+	7750 2500 7750 2600
 $EndSCHEMATC
