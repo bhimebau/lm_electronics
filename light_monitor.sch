@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Light Sensor Prototype 1 "
+Title "Light Sensor Prototype "
 Date "2019-02-01"
-Rev "R001"
+Rev "R002"
 Comp "Indiana University"
 Comment1 "Bryce Himebaugh"
 Comment2 ""
@@ -68,7 +68,7 @@ U 1 1 5C54A460
 P 2500 4800
 F 0 "BT1" H 2000 5050 50  0000 L CNN
 F 1 "Battery_Cell" H 2000 4950 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 2500 4860 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 2500 4860 50  0001 C CNN
 F 3 "~" V 2500 4860 50  0001 C CNN
 	1    2500 4800
 	1    0    0    -1  
@@ -440,20 +440,9 @@ U 1 1 5C6ED59E
 P 4450 4500
 F 0 "U3" H 4450 4865 50  0000 C CNN
 F 1 "TPS610986" H 4450 4774 50  0000 C CNN
-F 2 "Package_SON:Texas_PWSON-N6" H 4450 4500 50  0001 C CNN
+F 2 "SON50P150X150X80-6N:SON50P150X150X80-6N" H 4450 4500 50  0001 C CNN
 F 3 "" H 4450 4500 50  0001 C CNN
 	1    4450 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5C6ED6FE
-P 2150 3600
-F 0 "J1" H 2256 3878 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 2256 3787 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 2150 3600 50  0001 C CNN
-F 3 "~" H 2150 3600 50  0001 C CNN
-	1    2150 3600
 	1    0    0    -1  
 $EndComp
 Text Label 4950 4600 0    50   ~ 0
@@ -630,68 +619,8 @@ F 3 "" H 4200 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 3300 4200 3500
-$Comp
-L Connector:Conn_01x03_Male J2
-U 1 1 5C715BF3
-P 2150 4150
-F 0 "J2" H 2256 4428 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 2256 4337 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 2150 4150 50  0001 C CNN
-F 3 "~" H 2150 4150 50  0001 C CNN
-	1    2150 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 4250 2350 4250
-Wire Wire Line
-	2500 4250 2500 4600
-Wire Wire Line
-	2350 4150 2900 4150
-Wire Wire Line
-	2900 4150 2900 4500
-Connection ~ 2900 4500
 Text Notes 2150 3200 0    50   ~ 0
 CN14
-$Comp
-L power:GND #PWR010
-U 1 1 5C71E489
-P 3000 3600
-F 0 "#PWR010" H 3000 3350 50  0001 C CNN
-F 1 "GND" H 3005 3427 50  0000 C CNN
-F 2 "" H 3000 3600 50  0001 C CNN
-F 3 "" H 3000 3600 50  0001 C CNN
-	1    3000 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 3500 3000 3500
-Wire Wire Line
-	3000 3500 3000 3600
-Wire Wire Line
-	2350 3700 2700 3700
-Wire Wire Line
-	2700 3700 2700 4050
-Wire Wire Line
-	2700 4050 2350 4050
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5C72454F
-P 3000 4000
-F 0 "TP1" H 3058 4120 50  0000 L CNN
-F 1 "VOUT_MON" H 3058 4029 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3200 4000 50  0001 C CNN
-F 3 "~" H 3200 4000 50  0001 C CNN
-	1    3000 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 3800 2800 3800
-Wire Wire Line
-	2800 3800 2800 4050
-Wire Wire Line
-	2800 4050 3000 4050
-Wire Wire Line
-	3000 4050 3000 4000
 Connection ~ 4200 3500
 $Comp
 L light_monitor-rescue:RV-8803-C7-bhimebau_rtc U5
@@ -755,14 +684,6 @@ rtc_data
 NoConn ~ 9500 4800
 NoConn ~ 9600 2800
 Wire Wire Line
-	3600 3500 3950 3500
-Wire Wire Line
-	3950 3500 3950 4400
-Connection ~ 3950 3500
-Wire Wire Line
-	3950 3500 4200 3500
-NoConn ~ 2350 3600
-Wire Wire Line
 	2500 4900 2500 5100
 NoConn ~ 3600 3750
 $Comp
@@ -803,8 +724,6 @@ F 3 "" H 4800 3000 50  0001 C CNN
 	1    4800 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 3500 4550 3500
 Wire Wire Line
 	4800 2900 4800 3000
 $Comp
@@ -912,29 +831,6 @@ Wire Wire Line
 Connection ~ 6100 1750
 Wire Wire Line
 	6100 4100 6100 4300
-Wire Wire Line
-	6100 4300 5500 4300
-Connection ~ 5500 4300
-Text Notes 1450 4150 0    50   ~ 0
-Pwr Select Port
-Text Notes 1450 3700 0    50   ~ 0
-ST Pwr Shield 
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5C7B8AF0
-P 4550 3450
-F 0 "#FLG0101" H 4550 3525 50  0001 C CNN
-F 1 "PWR_FLAG" H 4550 3624 50  0000 C CNN
-F 2 "" H 4550 3450 50  0001 C CNN
-F 3 "~" H 4550 3450 50  0001 C CNN
-	1    4550 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 3450 4550 3500
-Connection ~ 4550 3500
-Wire Wire Line
-	4550 3500 5200 3500
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5C7BC81F
@@ -1141,5 +1037,128 @@ $EndComp
 NoConn ~ 9600 2400
 NoConn ~ 9600 2200
 NoConn ~ 9600 2300
-NoConn ~ 8600 2400
+Wire Wire Line
+	2500 4600 2500 4500
+Wire Wire Line
+	2500 4500 2900 4500
+Connection ~ 2900 4500
+$Comp
+L power:VDD #PWR0102
+U 1 1 5C7C8CE0
+P 7850 2250
+F 0 "#PWR0102" H 7850 2100 50  0001 C CNN
+F 1 "VDD" H 7867 2423 50  0000 C CNN
+F 2 "" H 7850 2250 50  0001 C CNN
+F 3 "" H 7850 2250 50  0001 C CNN
+	1    7850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2250 7850 2400
+Wire Wire Line
+	7850 2400 8600 2400
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C7CD34C
+P 1100 3050
+F 0 "#FLG0101" H 1100 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 3224 50  0000 C CNN
+F 2 "" H 1100 3050 50  0001 C CNN
+F 3 "~" H 1100 3050 50  0001 C CNN
+	1    1100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3050 1100 3100
+Wire Wire Line
+	1100 3100 1500 3100
+Connection ~ 1500 3100
+Wire Wire Line
+	4200 3500 5200 3500
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5C85336F
+P 2500 3850
+F 0 "JP1" V 2454 3948 50  0000 L CNN
+F 1 "Jumper_2_Open" V 2545 3948 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2500 3850 50  0001 C CNN
+F 3 "~" H 2500 3850 50  0001 C CNN
+	1    2500 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 4050 2500 4500
+Connection ~ 2500 4500
+Wire Wire Line
+	2500 3650 2500 3500
+Wire Wire Line
+	2500 3500 3600 3500
+Connection ~ 3600 3500
+Text Label 2500 4500 0    50   ~ 0
+VBATT
+Wire Wire Line
+	3600 3500 3950 3500
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 5C8601AA
+P 3950 3750
+F 0 "JP2" V 3904 3848 50  0000 L CNN
+F 1 "Jumper_2_Open" V 3995 3848 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3950 3750 50  0001 C CNN
+F 3 "~" H 3950 3750 50  0001 C CNN
+	1    3950 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 3550 3950 3500
+Connection ~ 3950 3500
+Wire Wire Line
+	3950 3500 4200 3500
+Wire Wire Line
+	3950 3950 3950 4400
+$Comp
+L Jumper:Jumper_2_Open JP3
+U 1 1 5C868F0D
+P 5750 4300
+F 0 "JP3" H 5750 4075 50  0000 C CNN
+F 1 "Jumper_2_Open" H 5750 4166 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5750 4300 50  0001 C CNN
+F 3 "~" H 5750 4300 50  0001 C CNN
+	1    5750 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 4300 5550 4300
+Connection ~ 5500 4300
+Wire Wire Line
+	5950 4300 6100 4300
+$Comp
+L Jumper:Jumper_2_Open JP4
+U 1 1 5C871B08
+P 6450 4300
+F 0 "JP4" H 6450 4075 50  0000 C CNN
+F 1 "Jumper_2_Open" H 6450 4166 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6450 4300 50  0001 C CNN
+F 3 "~" H 6450 4300 50  0001 C CNN
+	1    6450 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 4300 6250 4300
+Connection ~ 6100 4300
+Text Label 6650 4300 0    50   ~ 0
+VBATT
+Text Notes 600  4300 0    50   ~ 0
+Connect only one jumper pair!\nJP2/JP3 Connected: Boost Regulator\nJP1/JP4 Connected: Boost Regulator Bypassed 
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C876E19
+P 10350 5600
+F 0 "H1" H 10450 5646 50  0000 L CNN
+F 1 "MountingHole" H 10450 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10350 5600 50  0001 C CNN
+F 3 "~" H 10350 5600 50  0001 C CNN
+	1    10350 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
