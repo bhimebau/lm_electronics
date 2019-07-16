@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Light Sensor Breakout "
 Date "2019-02-01"
-Rev "R003"
+Rev "R004"
 Comp "Indiana University"
 Comment1 "Bryce Himebaugh"
 Comment2 ""
@@ -68,7 +68,7 @@ U 1 1 5C54A460
 P 4550 3750
 F 0 "BT1" H 4050 4000 50  0000 L CNN
 F 1 "Battery_Cell" H 4050 3900 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 4550 3810 50  0001 C CNN
+F 2 "bhimebau_battery:Keystone_1091TR" V 4550 3810 50  0001 C CNN
 F 3 "~" V 4550 3810 50  0001 C CNN
 	1    4550 3750
 	1    0    0    -1  
@@ -241,8 +241,6 @@ Wire Wire Line
 	8300 6100 8300 6300
 Text Label 9500 6100 0    50   ~ 0
 sensor_data
-Wire Wire Line
-	9750 6000 9500 6000
 $Comp
 L light_monitor-rescue:TSL25911FN-SamacSys_Parts IC1
 U 1 1 5C6C255C
@@ -557,19 +555,6 @@ Wire Wire Line
 	4950 3100 5650 3100
 Wire Wire Line
 	5650 3100 5650 3000
-$Comp
-L power:VDD #PWR011
-U 1 1 5CDE1DE6
-P 9750 5700
-F 0 "#PWR011" H 9750 5550 50  0001 C CNN
-F 1 "VDD" H 9767 5873 50  0000 C CNN
-F 2 "" H 9750 5700 50  0001 C CNN
-F 3 "" H 9750 5700 50  0001 C CNN
-	1    9750 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 5700 9750 6000
 Wire Wire Line
 	8600 2400 7850 2400
 Wire Wire Line
@@ -578,7 +563,6 @@ Text Label 8500 6000 2    50   ~ 0
 sensor_int
 Text Label 9600 2800 0    50   ~ 0
 sensor_int
-NoConn ~ 9600 3100
 NoConn ~ 9600 3200
 NoConn ~ 8600 3300
 $Comp
@@ -612,4 +596,36 @@ Wire Wire Line
 Wire Wire Line
 	4550 3100 4550 3550
 Connection ~ 4950 3100
+Text Label 9600 3100 0    50   ~ 0
+sensor_power
+Text Label 9500 6000 0    50   ~ 0
+sensor_power
+$Comp
+L Device:C C2
+U 1 1 5D1BBADB
+P 10400 4550
+F 0 "C2" H 10515 4596 50  0000 L CNN
+F 1 "0.1uF" H 10515 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10438 4400 50  0001 C CNN
+F 3 "~" H 10400 4550 50  0001 C CNN
+	1    10400 4550
+	1    0    0    -1  
+$EndComp
+Text Label 10400 4200 0    50   ~ 0
+sensor_power
+$Comp
+L power:GND #PWR010
+U 1 1 5D1BC44D
+P 10400 5100
+F 0 "#PWR010" H 10400 4850 50  0001 C CNN
+F 1 "GND" H 10405 4927 50  0000 C CNN
+F 2 "" H 10400 5100 50  0001 C CNN
+F 3 "" H 10400 5100 50  0001 C CNN
+	1    10400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 4700 10400 5100
+Wire Wire Line
+	10400 4400 10400 4200
 $EndSCHEMATC
