@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Light Sensor Breakout "
 Date "2019-02-01"
-Rev "R003"
+Rev "R004"
 Comp "Indiana University"
 Comment1 "Bryce Himebaugh"
 Comment2 ""
@@ -25,8 +25,6 @@ F 3 "" H 9100 1350 50  0001 C CNN
 	1    9100 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 1350 9100 1650
 Wire Wire Line
 	9200 1800 9200 1650
 Wire Wire Line
@@ -215,17 +213,6 @@ $EndComp
 Wire Wire Line
 	2350 6750 2350 6850
 Connection ~ 2350 6850
-$Comp
-L power:VDD #PWR03
-U 1 1 5C6B03CA
-P 1750 6350
-F 0 "#PWR03" H 1750 6200 50  0001 C CNN
-F 1 "VDD" H 1767 6523 50  0000 C CNN
-F 2 "" H 1750 6350 50  0001 C CNN
-F 3 "" H 1750 6350 50  0001 C CNN
-	1    1750 6350
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3050 6550
 NoConn ~ 4250 6550
 NoConn ~ 4250 6950
@@ -241,8 +228,6 @@ Wire Wire Line
 	8300 6100 8300 6300
 Text Label 9500 6100 0    50   ~ 0
 sensor_data
-Wire Wire Line
-	9750 6000 9500 6000
 $Comp
 L light_monitor-rescue:TSL25911FN-SamacSys_Parts IC1
 U 1 1 5C6C255C
@@ -339,10 +324,6 @@ F 3 "" H 7700 4700 50  0001 C CNN
 	1    7700 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 4700 7700 4900
-Wire Wire Line
-	7700 4900 8200 4900
 $Comp
 L power:GND #PWR018
 U 1 1 5C741226
@@ -387,17 +368,6 @@ F 3 "" H 10350 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR022
-U 1 1 5C7046E7
-P 10300 1850
-F 0 "#PWR022" H 10300 1700 50  0001 C CNN
-F 1 "VDD" H 10317 2023 50  0000 C CNN
-F 2 "" H 10300 1850 50  0001 C CNN
-F 3 "" H 10300 1850 50  0001 C CNN
-	1    10300 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR023
 U 1 1 5C70472C
 P 10300 2300
@@ -428,17 +398,6 @@ F 1 "0.1uF" H 10865 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 1900 50  0001 C CNN
 F 3 "~" H 10750 2050 50  0001 C CNN
 	1    10750 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR024
-U 1 1 5C704895
-P 10750 1850
-F 0 "#PWR024" H 10750 1700 50  0001 C CNN
-F 1 "VDD" H 10767 2023 50  0000 C CNN
-F 2 "" H 10750 1850 50  0001 C CNN
-F 3 "" H 10750 1850 50  0001 C CNN
-	1    10750 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -480,28 +439,6 @@ F 1 "0.1uF" H 10865 1005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 900 50  0001 C CNN
 F 3 "~" H 10750 1050 50  0001 C CNN
 	1    10750 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR026
-U 1 1 5C71E0F1
-P 10300 800
-F 0 "#PWR026" H 10300 650 50  0001 C CNN
-F 1 "VDD" H 10317 973 50  0000 C CNN
-F 2 "" H 10300 800 50  0001 C CNN
-F 3 "" H 10300 800 50  0001 C CNN
-	1    10300 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR028
-U 1 1 5C71E13E
-P 10750 800
-F 0 "#PWR028" H 10750 650 50  0001 C CNN
-F 1 "VDD" H 10767 973 50  0000 C CNN
-F 2 "" H 10750 800 50  0001 C CNN
-F 3 "" H 10750 800 50  0001 C CNN
-	1    10750 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -613,17 +550,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 3100 4950 3550
 $Comp
-L power:VDD #PWR06
-U 1 1 5C54B243
-P 7850 1500
-F 0 "#PWR06" H 7850 1350 50  0001 C CNN
-F 1 "VDD" H 7867 1673 50  0000 C CNN
-F 2 "" H 7850 1500 50  0001 C CNN
-F 3 "" H 7850 1500 50  0001 C CNN
-	1    7850 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VDD #PWR01
 U 1 1 5CDD4985
 P 5650 3000
@@ -639,19 +565,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 3100 5650 3000
 Connection ~ 4950 3100
-$Comp
-L power:VDD #PWR011
-U 1 1 5CDE1DE6
-P 9750 5700
-F 0 "#PWR011" H 9750 5550 50  0001 C CNN
-F 1 "VDD" H 9767 5873 50  0000 C CNN
-F 2 "" H 9750 5700 50  0001 C CNN
-F 3 "" H 9750 5700 50  0001 C CNN
-	1    9750 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 5700 9750 6000
 Wire Wire Line
 	8600 2400 7850 2400
 Wire Wire Line
@@ -660,7 +573,6 @@ Text Label 8500 6000 2    50   ~ 0
 sensor_int
 Text Label 9600 2800 0    50   ~ 0
 sensor_int
-NoConn ~ 9600 3100
 NoConn ~ 9600 3200
 NoConn ~ 8600 3300
 $Comp
@@ -728,4 +640,79 @@ Text Label 9600 2300 0    50   ~ 0
 RX
 NoConn ~ 8600 3400
 NoConn ~ 8600 3500
+Text Label 9600 3100 0    50   ~ 0
+sensor_power
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5D2F9B53
+P 7100 4800
+F 0 "J4" H 7100 5000 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6850 4900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7100 4800 50  0001 C CNN
+F 3 "~" H 7100 4800 50  0001 C CNN
+	1    7100 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4900 8200 4900
+Wire Wire Line
+	7300 4800 7700 4800
+Wire Wire Line
+	7700 4800 7700 4700
+Text Label 7300 4900 0    50   ~ 0
+RTC_VDD
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5D2FE559
+P 8850 5450
+F 0 "J7" H 8850 5650 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 8600 5550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 5450 50  0001 C CNN
+F 3 "~" H 8850 5450 50  0001 C CNN
+	1    8850 5450
+	1    0    0    -1  
+$EndComp
+Text Label 9050 5450 0    50   ~ 0
+sensor_power
+Wire Wire Line
+	9050 5550 9750 5550
+Wire Wire Line
+	9750 5550 9750 6000
+Wire Wire Line
+	9750 6000 9500 6000
+Text Label 9050 5550 0    50   ~ 0
+SENSOR_VDD
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5D3017F6
+P 8650 1450
+F 0 "J6" H 8650 1650 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 8400 1550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8650 1450 50  0001 C CNN
+F 3 "~" H 8650 1450 50  0001 C CNN
+	1    8650 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1450 9100 1450
+Wire Wire Line
+	9100 1450 9100 1350
+Wire Wire Line
+	8850 1550 9100 1550
+Wire Wire Line
+	9100 1550 9100 1650
+Text Label 8900 1550 0    50   ~ 0
+uC_VDD
+Text Label 10300 800  0    50   ~ 0
+uC_VDD
+Text Label 10750 800  0    50   ~ 0
+uC_VDD
+Text Label 10300 1850 0    50   ~ 0
+uC_VDD
+Text Label 10750 1850 0    50   ~ 0
+uC_VDD
+Text Label 7850 1500 0    50   ~ 0
+uC_VDD
+Text Label 1750 6350 0    50   ~ 0
+uC_VDD
 $EndSCHEMATC
