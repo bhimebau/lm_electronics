@@ -66,7 +66,7 @@ U 1 1 5C54A460
 P 4550 3750
 F 0 "BT1" H 4050 4000 50  0000 L CNN
 F 1 "Battery_Cell" H 4050 3900 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 4550 3810 50  0001 C CNN
+F 2 "bhimebau_battery:Keystone_1091TR" V 4550 3810 50  0001 C CNN
 F 3 "~" V 4550 3810 50  0001 C CNN
 	1    4550 3750
 	1    0    0    -1  
