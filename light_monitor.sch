@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:light_monitor-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Light Sensor Prototype 1 "
+Title "Dark-Sky Light Sensor"
 Date "2019-02-01"
-Rev "R001"
+Rev "R005 USB"
 Comp "Indiana University"
 Comment1 "Bryce Himebaugh"
 Comment2 ""
