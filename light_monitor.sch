@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Light Sensor Breakout "
 Date "2019-02-01"
-Rev "R004"
+Rev "R005 lpuart"
 Comp "Indiana University"
 Comment1 "Bryce Himebaugh"
 Comment2 ""
@@ -329,17 +329,6 @@ Wire Wire Line
 Text Notes 3500 3100 0    50   ~ 0
 Pwr Select Port
 $Comp
-L light_monitor-rescue:board_lens-bhimebau-lens X1
-U 1 1 5C703045
-P 10350 6000
-F 0 "X1" H 10528 6046 50  0000 L CNN
-F 1 "board_lens" H 10528 5955 50  0000 L CNN
-F 2 "bhimebau_inductor:carclo_lens" H 10350 6000 50  0001 C CNN
-F 3 "" H 10350 6000 50  0001 C CNN
-	1    10350 6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VDD #PWR022
 U 1 1 5C7046E7
 P 10300 1850
@@ -628,4 +617,60 @@ Wire Wire Line
 	10400 4700 10400 5100
 Wire Wire Line
 	10400 4400 10400 4200
+$Comp
+L Device:R_US R3
+U 1 1 5D3772FC
+P 5000 4600
+F 0 "R3" V 4900 4550 50  0000 C CNN
+F 1 "200" V 4900 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5040 4590 50  0001 C CNN
+F 3 "~" H 5000 4600 50  0001 C CNN
+	1    5000 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5D3786E4
+P 5000 4700
+F 0 "R4" V 5100 4650 50  0000 C CNN
+F 1 "200" V 5100 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5040 4690 50  0001 C CNN
+F 3 "~" H 5000 4700 50  0001 C CNN
+	1    5000 4700
+	0    1    1    0   
+$EndComp
+Text Label 5150 4600 0    50   ~ 0
+TX
+Text Label 5150 4700 0    50   ~ 0
+RX
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5D372F79
+P 4500 4700
+F 0 "J1" H 4418 5017 50  0000 C CNN
+F 1 "Conn_01x03" H 4418 4926 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 4500 4700 50  0001 C CNN
+F 3 "~" H 4500 4700 50  0001 C CNN
+	1    4500 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4600 4850 4600
+Wire Wire Line
+	4700 4700 4850 4700
+$Comp
+L power:GND #PWR011
+U 1 1 5D38244E
+P 4900 4900
+F 0 "#PWR011" H 4900 4650 50  0001 C CNN
+F 1 "GND" H 4905 4727 50  0000 C CNN
+F 2 "" H 4900 4900 50  0001 C CNN
+F 3 "" H 4900 4900 50  0001 C CNN
+	1    4900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4800 4900 4800
+Wire Wire Line
+	4900 4800 4900 4900
 $EndSCHEMATC
