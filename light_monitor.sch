@@ -84,26 +84,6 @@ F 3 "" H 4550 4050 50  0001 C CNN
 	1    4550 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 2000 7850 2000
-$Comp
-L Device:R_US R2
-U 1 1 5C54B1FB
-P 7850 1700
-F 0 "R2" H 7918 1746 50  0000 L CNN
-F 1 "100k" H 7918 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7890 1690 50  0001 C CNN
-F 3 "~" H 7850 1700 50  0001 C CNN
-	1    7850 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 1850 7850 2000
-Connection ~ 7850 2000
-Wire Wire Line
-	7850 2000 8600 2000
-Wire Wire Line
-	7850 1550 7850 1500
 Text Label 9600 3400 0    50   ~ 0
 SWDCLK
 Text Label 9600 3300 0    50   ~ 0
@@ -145,10 +125,7 @@ Wire Wire Line
 	7800 3500 7800 3600
 Wire Wire Line
 	7800 3900 7800 4000
-NoConn ~ 9600 2000
-NoConn ~ 9600 2100
 NoConn ~ 8600 3000
-NoConn ~ 8600 2700
 Text Label 8600 3100 2    50   ~ 0
 SWO
 Wire Wire Line
@@ -257,30 +234,6 @@ F 8 "TSL25911FN" H 9350 5400 50  0001 L CNN "Manufacturer_Part_Number"
 	1    8500 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C1
-U 1 1 5C6F4A93
-P 4950 3700
-F 0 "C1" H 5065 3746 50  0000 L CNN
-F 1 "10uF" H 5065 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4988 3550 50  0001 C CNN
-F 3 "~" H 4950 3700 50  0001 C CNN
-	1    4950 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5C70B183
-P 4950 4050
-F 0 "#PWR09" H 4950 3800 50  0001 C CNN
-F 1 "GND" H 4955 3877 50  0000 C CNN
-F 2 "" H 4950 4050 50  0001 C CNN
-F 3 "" H 4950 4050 50  0001 C CNN
-	1    4950 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 4050 4950 3850
 Text Label 8450 4800 2    50   ~ 0
 oscillator
 $Comp
@@ -487,7 +440,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    9100 2700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9600 2400
 $Comp
 L power:GND #PWR030
 U 1 1 5C78D601
@@ -516,19 +468,6 @@ Wire Wire Line
 	1750 6650 3050 6650
 Wire Wire Line
 	2350 7050 3050 7050
-Wire Wire Line
-	4950 3100 4950 3550
-$Comp
-L power:VDD #PWR06
-U 1 1 5C54B243
-P 7850 1500
-F 0 "#PWR06" H 7850 1350 50  0001 C CNN
-F 1 "VDD" H 7867 1673 50  0000 C CNN
-F 2 "" H 7850 1500 50  0001 C CNN
-F 3 "" H 7850 1500 50  0001 C CNN
-	1    7850 1500
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VDD #PWR01
 U 1 1 5CDD4985
@@ -540,8 +479,6 @@ F 3 "" H 5650 3000 50  0001 C CNN
 	1    5650 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 3100 5650 3100
 Wire Wire Line
 	5650 3100 5650 3000
 Wire Wire Line
@@ -571,52 +508,18 @@ Text Label 9500 4800 0    50   ~ 0
 rtc_EVI
 Text Label 9600 2600 0    50   ~ 0
 rtc_nINT
-Text Label 9600 2500 0    50   ~ 0
-rtc_EVI
 NoConn ~ 11400 5400
 Text Label 9600 2200 0    50   ~ 0
 TX
 Text Label 9600 2300 0    50   ~ 0
 RX
 NoConn ~ 8600 3400
-NoConn ~ 8600 3500
-Wire Wire Line
-	4550 3100 4950 3100
 Wire Wire Line
 	4550 3100 4550 3550
-Connection ~ 4950 3100
 Text Label 9600 3100 0    50   ~ 0
 sensor_power
 Text Label 9500 6000 0    50   ~ 0
 sensor_power
-$Comp
-L Device:C C2
-U 1 1 5D1BBADB
-P 10400 4550
-F 0 "C2" H 10515 4596 50  0000 L CNN
-F 1 "0.1uF" H 10515 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10438 4400 50  0001 C CNN
-F 3 "~" H 10400 4550 50  0001 C CNN
-	1    10400 4550
-	1    0    0    -1  
-$EndComp
-Text Label 10400 4200 0    50   ~ 0
-sensor_power
-$Comp
-L power:GND #PWR010
-U 1 1 5D1BC44D
-P 10400 5100
-F 0 "#PWR010" H 10400 4850 50  0001 C CNN
-F 1 "GND" H 10405 4927 50  0000 C CNN
-F 2 "" H 10400 5100 50  0001 C CNN
-F 3 "" H 10400 5100 50  0001 C CNN
-	1    10400 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 4700 10400 5100
-Wire Wire Line
-	10400 4400 10400 4200
 $Comp
 L Device:R_US R3
 U 1 1 5D3772FC
@@ -673,4 +576,90 @@ Wire Wire Line
 	4700 4800 4900 4800
 Wire Wire Line
 	4900 4800 4900 4900
+$Comp
+L SamacSys_Parts:TSL237S-LF IC2
+U 1 1 5D48A438
+P 4650 1900
+F 0 "IC2" H 5150 1535 50  0000 C CNN
+F 1 "TSL237S-LF" H 5150 1626 50  0000 C CNN
+F 2 "SamacSys_Parts_3:TSL237S-LF" H 5500 2000 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/TSL237S-LF.pdf" H 5500 1900 50  0001 L CNN
+F 4 "Light To Frequency & Light To Voltage Light to Frequency High Responsivity" H 5500 1800 50  0001 L CNN "Description"
+F 5 "" H 5500 1700 50  0001 L CNN "Height"
+F 6 "856-TSL237S-LF" H 5500 1600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=856-TSL237S-LF" H 5500 1500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ams" H 5500 1400 50  0001 L CNN "Manufacturer_Name"
+F 9 "TSL237S-LF" H 5500 1300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4650 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5D495955
+P 4300 2200
+F 0 "#PWR012" H 4300 1950 50  0001 C CNN
+F 1 "GND" H 4305 2027 50  0000 C CNN
+F 2 "" H 4300 2200 50  0001 C CNN
+F 3 "" H 4300 2200 50  0001 C CNN
+	1    4300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1900 4300 1900
+Wire Wire Line
+	4300 1900 4300 2200
+Text Label 8600 2700 2    50   ~ 0
+rtc_EVI
+Text Label 9600 2500 0    50   ~ 0
+tsl237_freq
+Text Label 5650 1900 0    50   ~ 0
+tsl237_freq
+Text Label 9600 2400 0    50   ~ 0
+tsl237_pwr
+Text Label 4650 1800 2    50   ~ 0
+tsl237_pwr
+NoConn ~ 8600 3500
+$Comp
+L bhimebau_lightsensor:sm_tsl237 U3
+U 1 1 5D4A5399
+P 5150 900
+F 0 "U3" H 5150 1065 50  0000 C CNN
+F 1 "sm_tsl237" H 5150 974 50  0000 C CNN
+F 2 "bhimebau_lightsensor:tsl237t" H 5150 900 50  0001 C CNN
+F 3 "" H 5150 900 50  0001 C CNN
+	1    5150 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5D4A5E32
+P 4300 1300
+F 0 "#PWR014" H 4300 1050 50  0001 C CNN
+F 1 "GND" H 4305 1127 50  0000 C CNN
+F 2 "" H 4300 1300 50  0001 C CNN
+F 3 "" H 4300 1300 50  0001 C CNN
+	1    4300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1300 4300 1150
+Wire Wire Line
+	4300 1150 4700 1150
+Wire Wire Line
+	4300 1150 4300 1000
+Wire Wire Line
+	4300 1000 4700 1000
+Connection ~ 4300 1150
+Text Label 9600 2000 0    50   ~ 0
+sm_237t_pwr
+Text Label 5600 1150 0    50   ~ 0
+sm_237t_pwr
+Text Label 5600 1000 0    50   ~ 0
+sm_237t_freq
+Text Label 9600 2100 0    50   ~ 0
+sm_237t_freq
+Wire Wire Line
+	4550 3100 5650 3100
+Wire Wire Line
+	7200 2000 8600 2000
 $EndSCHEMATC
