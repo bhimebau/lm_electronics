@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Light Sensor Breakout "
 Date "2019-02-01"
-Rev "R005 lpuart"
+Rev "R006"
 Comp "Indiana University"
 Comment1 "Bryce Himebaugh"
 Comment2 ""
@@ -25,8 +25,6 @@ F 3 "" H 9100 1350 50  0001 C CNN
 	1    9100 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 1350 9100 1650
 Wire Wire Line
 	9200 1800 9200 1650
 Wire Wire Line
@@ -65,23 +63,23 @@ Wire Wire Line
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5C54A460
-P 4550 3750
-F 0 "BT1" H 4050 4000 50  0000 L CNN
-F 1 "Battery_Cell" H 4050 3900 50  0000 L CNN
-F 2 "bhimebau_battery:Keystone_1091TR" V 4550 3810 50  0001 C CNN
-F 3 "~" V 4550 3810 50  0001 C CNN
-	1    4550 3750
+P 3200 3550
+F 0 "BT1" H 2700 3800 50  0000 L CNN
+F 1 "Battery_Cell" H 2700 3700 50  0000 L CNN
+F 2 "bhimebau_battery:Keystone_1091TR" V 3200 3610 50  0001 C CNN
+F 3 "~" V 3200 3610 50  0001 C CNN
+	1    3200 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5C54A4D7
-P 4550 4050
-F 0 "#PWR02" H 4550 3800 50  0001 C CNN
-F 1 "GND" H 4555 3877 50  0000 C CNN
-F 2 "" H 4550 4050 50  0001 C CNN
-F 3 "" H 4550 4050 50  0001 C CNN
-	1    4550 4050
+P 3200 3850
+F 0 "#PWR02" H 3200 3600 50  0001 C CNN
+F 1 "GND" H 3205 3677 50  0000 C CNN
+F 2 "" H 3200 3850 50  0001 C CNN
+F 3 "" H 3200 3850 50  0001 C CNN
+	1    3200 3850
 	1    0    0    -1  
 $EndComp
 Text Label 9600 3400 0    50   ~ 0
@@ -237,21 +235,6 @@ $EndComp
 Text Label 8450 4800 2    50   ~ 0
 oscillator
 $Comp
-L power:VDD #PWR013
-U 1 1 5C73D8E0
-P 7700 4700
-F 0 "#PWR013" H 7700 4550 50  0001 C CNN
-F 1 "VDD" H 7717 4873 50  0000 C CNN
-F 2 "" H 7700 4700 50  0001 C CNN
-F 3 "" H 7700 4700 50  0001 C CNN
-	1    7700 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 4700 7700 4900
-Wire Wire Line
-	7700 4900 8200 4900
-$Comp
 L power:GND #PWR018
 U 1 1 5C741226
 P 9750 5150
@@ -268,7 +251,6 @@ Wire Wire Line
 	8200 4900 8200 5000
 Wire Wire Line
 	8200 5000 8450 5000
-Connection ~ 8200 4900
 Wire Wire Line
 	8200 4900 8450 4900
 Text Label 9600 2700 0    50   ~ 0
@@ -278,20 +260,9 @@ rtc_clock
 Text Label 8450 4700 2    50   ~ 0
 rtc_data
 Wire Wire Line
-	4550 3850 4550 4050
-Text Notes 3500 3100 0    50   ~ 0
+	3200 3650 3200 3850
+Text Notes 1950 3100 0    50   ~ 0
 Pwr Select Port
-$Comp
-L power:VDD #PWR022
-U 1 1 5C7046E7
-P 10300 1850
-F 0 "#PWR022" H 10300 1700 50  0001 C CNN
-F 1 "VDD" H 10317 2023 50  0000 C CNN
-F 2 "" H 10300 1850 50  0001 C CNN
-F 3 "" H 10300 1850 50  0001 C CNN
-	1    10300 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 5C70472C
@@ -323,17 +294,6 @@ F 1 "0.1uF" H 10865 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 1900 50  0001 C CNN
 F 3 "~" H 10750 2050 50  0001 C CNN
 	1    10750 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR024
-U 1 1 5C704895
-P 10750 1850
-F 0 "#PWR024" H 10750 1700 50  0001 C CNN
-F 1 "VDD" H 10767 2023 50  0000 C CNN
-F 2 "" H 10750 1850 50  0001 C CNN
-F 3 "" H 10750 1850 50  0001 C CNN
-	1    10750 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -375,28 +335,6 @@ F 1 "0.1uF" H 10865 1005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 900 50  0001 C CNN
 F 3 "~" H 10750 1050 50  0001 C CNN
 	1    10750 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR026
-U 1 1 5C71E0F1
-P 10300 800
-F 0 "#PWR026" H 10300 650 50  0001 C CNN
-F 1 "VDD" H 10317 973 50  0000 C CNN
-F 2 "" H 10300 800 50  0001 C CNN
-F 3 "" H 10300 800 50  0001 C CNN
-	1    10300 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR028
-U 1 1 5C71E13E
-P 10750 800
-F 0 "#PWR028" H 10750 650 50  0001 C CNN
-F 1 "VDD" H 10767 973 50  0000 C CNN
-F 2 "" H 10750 800 50  0001 C CNN
-F 3 "" H 10750 800 50  0001 C CNN
-	1    10750 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -471,16 +409,16 @@ Wire Wire Line
 $Comp
 L power:VDD #PWR01
 U 1 1 5CDD4985
-P 5650 3000
-F 0 "#PWR01" H 5650 2850 50  0001 C CNN
-F 1 "VDD" H 5667 3173 50  0000 C CNN
-F 2 "" H 5650 3000 50  0001 C CNN
-F 3 "" H 5650 3000 50  0001 C CNN
-	1    5650 3000
+P 4000 2950
+F 0 "#PWR01" H 4000 2800 50  0001 C CNN
+F 1 "VDD" H 4017 3123 50  0000 C CNN
+F 2 "" H 4000 2950 50  0001 C CNN
+F 3 "" H 4000 2950 50  0001 C CNN
+	1    4000 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 3100 5650 3000
+	4000 3050 4000 2950
 Wire Wire Line
 	8600 2400 7850 2400
 Wire Wire Line
@@ -514,11 +452,7 @@ TX
 Text Label 9600 2300 0    50   ~ 0
 RX
 NoConn ~ 8600 3400
-Wire Wire Line
-	4550 3100 4550 3550
 Text Label 9600 3100 0    50   ~ 0
-sensor_power
-Text Label 9500 6000 0    50   ~ 0
 sensor_power
 $Comp
 L Device:R_US R3
@@ -616,8 +550,6 @@ Text Label 5650 1900 0    50   ~ 0
 tsl237_freq
 Text Label 9600 2400 0    50   ~ 0
 tsl237_pwr
-Text Label 4650 1800 2    50   ~ 0
-tsl237_pwr
 NoConn ~ 8600 3500
 $Comp
 L bhimebau_lightsensor:sm_tsl237 U3
@@ -652,14 +584,210 @@ Wire Wire Line
 Connection ~ 4300 1150
 Text Label 9600 2000 0    50   ~ 0
 sm_237t_pwr
-Text Label 5600 1150 0    50   ~ 0
-sm_237t_pwr
 Text Label 5600 1000 0    50   ~ 0
 sm_237t_freq
 Text Label 9600 2100 0    50   ~ 0
 sm_237t_freq
 Wire Wire Line
-	4550 3100 5650 3100
+	2900 3050 4000 3050
 Wire Wire Line
 	7200 2000 8600 2000
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5D49FC1B
+P 2700 2150
+F 0 "J2" H 2808 2431 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 2808 2340 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 2700 2150 50  0001 C CNN
+F 3 "~" H 2700 2150 50  0001 C CNN
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5D4A129C
+P 2700 3050
+F 0 "J3" H 2808 3331 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2808 3240 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2700 3050 50  0001 C CNN
+F 3 "~" H 2700 3050 50  0001 C CNN
+	1    2700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5D4A1B43
+P 3350 2500
+F 0 "#PWR06" H 3350 2250 50  0001 C CNN
+F 1 "GND" H 3355 2327 50  0000 C CNN
+F 2 "" H 3350 2500 50  0001 C CNN
+F 3 "" H 3350 2500 50  0001 C CNN
+	1    3350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2350 3350 2350
+Wire Wire Line
+	3350 2350 3350 2500
+Wire Wire Line
+	2900 2950 3500 2950
+Wire Wire Line
+	3500 2950 3500 2150
+Wire Wire Line
+	3500 2150 2900 2150
+Wire Wire Line
+	2900 3150 3200 3150
+Wire Wire Line
+	3200 3150 3200 3350
+Text Label 6650 1000 0    50   ~ 0
+sm_237t_freq
+Text Label 6400 1800 0    50   ~ 0
+tsl237_freq
+Text Label 6400 2000 0    50   ~ 0
+tsl237_pwr
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5D4ADEC7
+P 5950 4600
+F 0 "J4" H 6058 4781 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6058 4690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5950 4600 50  0001 C CNN
+F 3 "~" H 5950 4600 50  0001 C CNN
+	1    5950 4600
+	1    0    0    -1  
+$EndComp
+Text Label 6150 4600 0    50   ~ 0
+TX
+Text Label 6150 4700 0    50   ~ 0
+RX
+Text Label 10400 5650 0    50   ~ 0
+sensor_clock
+Text Label 10400 5850 0    50   ~ 0
+sensor_int
+Text Label 10400 6050 0    50   ~ 0
+sensor_power
+Text Label 10400 5750 0    50   ~ 0
+sensor_data
+Wire Wire Line
+	7900 4900 8200 4900
+Connection ~ 8200 4900
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5D4B423B
+P 8450 1450
+F 0 "J7" H 8558 1631 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 8558 1540 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8450 1450 50  0001 C CNN
+F 3 "~" H 8450 1450 50  0001 C CNN
+	1    8450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1350 9100 1350
+Wire Wire Line
+	9100 1350 9100 1450
+Wire Wire Line
+	9100 1450 8650 1450
+Connection ~ 9100 1350
+Wire Wire Line
+	8650 1550 9100 1550
+Wire Wire Line
+	9100 1550 9100 1650
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5D4BA06E
+P 6200 1900
+F 0 "J5" H 6308 2181 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6308 2090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6200 1900 50  0001 C CNN
+F 3 "~" H 6200 1900 50  0001 C CNN
+	1    6200 1900
+	1    0    0    -1  
+$EndComp
+Text Label 6400 1900 0    50   ~ 0
+tsl237_vdd
+Text Label 4650 1800 2    50   ~ 0
+tsl237_vdd
+$Comp
+L Connector:Conn_01x03_Male J6
+U 1 1 5D4BC7BE
+P 6450 1100
+F 0 "J6" H 6558 1381 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6558 1290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6450 1100 50  0001 C CNN
+F 3 "~" H 6450 1100 50  0001 C CNN
+	1    6450 1100
+	1    0    0    -1  
+$EndComp
+Text Label 6650 1200 0    50   ~ 0
+sm_237t_pwr
+Text Label 6650 1100 0    50   ~ 0
+sm_237t_vdd
+Text Label 5600 1150 0    50   ~ 0
+sm_237t_vdd
+$Comp
+L Connector:Conn_01x05_Male J9
+U 1 1 5D4BE0C2
+P 10200 5850
+F 0 "J9" H 10308 6231 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 10308 6140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10200 5850 50  0001 C CNN
+F 3 "~" H 10200 5850 50  0001 C CNN
+	1    10200 5850
+	1    0    0    -1  
+$EndComp
+Text Label 9500 6000 0    50   ~ 0
+sensor_vdd
+Text Label 10400 5950 0    50   ~ 0
+sensor_vdd
+Text Label 10200 4550 0    50   ~ 0
+rtc_clock
+Text Label 10200 4650 0    50   ~ 0
+rtc_data
+Text Label 10200 4750 0    50   ~ 0
+rtc_EVI
+Text Label 10200 4850 0    50   ~ 0
+rtc_nINT
+$Comp
+L Connector:Conn_01x07_Male J8
+U 1 1 5D4C1CC4
+P 10000 4850
+F 0 "J8" H 10108 5331 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 10108 5240 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 10000 4850 50  0001 C CNN
+F 3 "~" H 10000 4850 50  0001 C CNN
+	1    10000 4850
+	1    0    0    -1  
+$EndComp
+Text Label 10200 4950 0    50   ~ 0
+oscillator
+Text Label 10200 5050 0    50   ~ 0
+rtc_vdd
+$Comp
+L power:VDD #PWR09
+U 1 1 5D4C2982
+P 10850 5050
+F 0 "#PWR09" H 10850 4900 50  0001 C CNN
+F 1 "VDD" H 10867 5223 50  0000 C CNN
+F 2 "" H 10850 5050 50  0001 C CNN
+F 3 "" H 10850 5050 50  0001 C CNN
+	1    10850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 5150 10850 5150
+Wire Wire Line
+	10850 5150 10850 5050
+Text Label 7900 4900 2    50   ~ 0
+rtc_vdd
+Text Label 9100 1550 0    50   ~ 0
+l432_pwr
+Text Label 10300 800  0    50   ~ 0
+l432_pwr
+Text Label 10750 800  0    50   ~ 0
+l432_pwr
+Text Label 10300 1850 0    50   ~ 0
+l432_pwr
+Text Label 10750 1850 0    50   ~ 0
+l432_pwr
 $EndSCHEMATC
