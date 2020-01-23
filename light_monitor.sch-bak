@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:light_monitor-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -131,7 +131,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3600 6600 3900
 NoConn ~ 8400 4200
-Text Notes 3150 7400 0    50   ~ 0
+Text Notes 3100 7350 0    50   ~ 0
 FTSH-107-01-L-DV-K-TR
 $Comp
 L light_monitor-rescue:STDC14-bhimebau_jtag U2

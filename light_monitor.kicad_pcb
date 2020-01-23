@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-2")
 
   (general
     (thickness 1.6)
@@ -1709,9 +1709,9 @@
   (segment (start 95.758 93.98) (end 96.012 93.726) (width 0.1524) (layer B.Cu) (net 14))
   (via (at 115.316 93.472) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 14))
   (segment (start 96.012 93.726) (end 96.266 93.472) (width 0.1524) (layer F.Cu) (net 14))
-  (segment (start 96.266 93.472) (end 115.316 93.472) (width 0.1524) (layer F.Cu) (net 14))
   (segment (start 115.316 90.646) (end 115.538 90.424) (width 0.1524) (layer B.Cu) (net 14))
   (segment (start 115.316 93.472) (end 115.316 90.646) (width 0.1524) (layer B.Cu) (net 14))
+  (segment (start 96.266 93.472) (end 115.316 93.472) (width 0.1524) (layer F.Cu) (net 14))
   (via (at 93.98 90.424) (size 0.508) (drill 0.254) (layers F.Cu B.Cu) (net 15))
   (segment (start 92.227399 112.127799) (end 92.227399 111.020351) (width 0.1524) (layer B.Cu) (net 15))
   (segment (start 93.866 113.264) (end 93.3636 113.264) (width 0.1524) (layer B.Cu) (net 15))
@@ -2316,11 +2316,6 @@
         (xy 96.92 118.29225) (xy 96.92 118.293) (xy 97.019 118.293) (xy 97.019 118.547) (xy 96.92 118.547)
         (xy 96.92 118.54775) (xy 96.872 118.59575) (xy 96.824 118.54775) (xy 96.824 118.547) (xy 96.725 118.547)
         (xy 96.725 118.293) (xy 96.824 118.293) (xy 96.824 118.29225) (xy 96.84325 118.273) (xy 96.90075 118.273)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 100.648748 117.841998) (xy 100.5332 117.841998) (xy 100.5332 117.72645)
       )
     )
     (filled_polygon
