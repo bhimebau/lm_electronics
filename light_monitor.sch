@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:light_monitor-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -66,7 +65,7 @@ U 1 1 5C54A460
 P 2300 4650
 F 0 "BT1" H 1800 4900 50  0000 L CNN
 F 1 "Battery_Cell" H 1800 4800 50  0000 L CNN
-F 2 "bhimebau_battery:Keystone_1091TR" V 2300 4710 50  0001 C CNN
+F 2 "bhimebau_battery:BR2330A_Horizontal_Circular_Holes" V 2300 4710 50  0001 C CNN
 F 3 "~" V 2300 4710 50  0001 C CNN
 	1    2300 4650
 	1    0    0    -1  
@@ -113,7 +112,7 @@ L Device:R_US R1
 U 1 1 5C54C3AB
 P 6600 4050
 F 0 "R1" H 6668 4096 50  0000 L CNN
-F 1 "300" H 6668 4005 50  0000 L CNN
+F 1 "4.7k" H 6668 4005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6640 4040 50  0001 C CNN
 F 3 "~" H 6600 4050 50  0001 C CNN
 	1    6600 4050
@@ -194,58 +193,6 @@ Wire Wire Line
 	2300 4750 2300 4950
 Text Notes 2750 4050 0    50   ~ 0
 Pwr Select Port
-$Comp
-L power:GND #PWR023
-U 1 1 5C70472C
-P 9100 3000
-F 0 "#PWR023" H 9100 2750 50  0001 C CNN
-F 1 "GND" H 9105 2827 50  0000 C CNN
-F 2 "" H 9100 3000 50  0001 C CNN
-F 3 "" H 9100 3000 50  0001 C CNN
-	1    9100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5C70478F
-P 9100 2750
-F 0 "C8" H 9215 2796 50  0000 L CNN
-F 1 "2.2uF" H 9215 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9138 2600 50  0001 C CNN
-F 3 "~" H 9100 2750 50  0001 C CNN
-	1    9100 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5C70483B
-P 9550 2750
-F 0 "C9" H 9665 2796 50  0000 L CNN
-F 1 "0.1uF" H 9665 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9588 2600 50  0001 C CNN
-F 3 "~" H 9550 2750 50  0001 C CNN
-	1    9550 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 5C7048DE
-P 9550 3000
-F 0 "#PWR025" H 9550 2750 50  0001 C CNN
-F 1 "GND" H 9555 2827 50  0000 C CNN
-F 2 "" H 9550 3000 50  0001 C CNN
-F 3 "" H 9550 3000 50  0001 C CNN
-	1    9550 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 2550 9100 2600
-Wire Wire Line
-	9100 2900 9100 3000
-Wire Wire Line
-	9550 2550 9550 2600
-Wire Wire Line
-	9550 2900 9550 3000
 $Comp
 L Device:C C10
 U 1 1 5C71E025
@@ -427,16 +374,6 @@ Wire Wire Line
 	2150 3050 2150 3200
 Wire Wire Line
 	2300 2850 1700 2850
-Text Label 7900 2250 0    50   ~ 0
-l432_pwr
-Text Label 9100 1500 0    50   ~ 0
-l432_pwr
-Text Label 9550 1500 0    50   ~ 0
-l432_pwr
-Text Label 9100 2550 0    50   ~ 0
-l432_pwr
-Text Label 9550 2550 0    50   ~ 0
-l432_pwr
 $Comp
 L bhimebau-oscillator:TG-3541CE U3
 U 1 1 5D812872
@@ -446,17 +383,6 @@ F 1 "TG-3541CE" H 4875 3834 50  0000 C CNN
 F 2 "bhimebau_oscillator:TG-3541CE" H 4900 3800 50  0001 C CNN
 F 3 "" H 4900 3800 50  0001 C CNN
 	1    4900 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Open JP2
-U 1 1 5D814EFD
-P 3600 3400
-F 0 "JP2" H 3600 3635 50  0000 C CNN
-F 1 "Jumper_2_Open" H 3600 3544 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3600 3400 50  0001 C CNN
-F 3 "~" H 3600 3400 50  0001 C CNN
-	1    3600 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -472,10 +398,6 @@ F 3 "" H 3200 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3200 3250 3200 3400
-Wire Wire Line
-	3200 3400 3400 3400
-Wire Wire Line
-	3800 3400 4150 3400
 Wire Wire Line
 	4150 3400 4150 3500
 Wire Wire Line
@@ -528,17 +450,6 @@ Wire Wire Line
 NoConn ~ 7400 3400
 NoConn ~ 7400 3900
 $Comp
-L Jumper:Jumper_2_Open JP3
-U 1 1 5D8324ED
-P 3850 2400
-F 0 "JP3" H 3850 2635 50  0000 C CNN
-F 1 "Jumper_2_Open" H 3850 2544 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3850 2400 50  0001 C CNN
-F 3 "~" H 3850 2400 50  0001 C CNN
-	1    3850 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L SamacSys_Parts:TSL237S-LF IC1
 U 1 1 5D833408
 P 4400 2300
@@ -570,29 +481,12 @@ Wire Wire Line
 	4400 2300 4300 2300
 Wire Wire Line
 	4300 2300 4300 2650
-Wire Wire Line
-	4400 2400 4050 2400
 Text Label 3650 2400 2    50   ~ 0
 tsl237_pwr
-$Comp
-L Jumper:Jumper_2_Open JP4
-U 1 1 5D839505
-P 7200 2200
-F 0 "JP4" H 7200 2435 50  0000 C CNN
-F 1 "Jumper_2_Open" H 7200 2344 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7200 2200 50  0001 C CNN
-F 3 "~" H 7200 2200 50  0001 C CNN
-	1    7200 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 2200 7900 2200
 Wire Wire Line
 	7900 2200 7900 2350
 Wire Wire Line
 	6800 2100 6800 2200
-Wire Wire Line
-	6800 2200 7000 2200
 $Comp
 L MCU_ST_STM32L4:STM32L432KCUx U1
 U 1 1 5C54A0E5
@@ -646,4 +540,113 @@ NoConn ~ 1700 2750
 NoConn ~ 1700 2950
 Text Label 5400 2300 0    50   ~ 0
 tsl237_freq
+$Comp
+L bhimebau_lightsensor:sm_tsl237 U4
+U 1 1 5E2CA9E3
+P 4900 1350
+F 0 "U4" H 4900 1515 50  0000 C CNN
+F 1 "sm_tsl237" H 4900 1424 50  0000 C CNN
+F 2 "bhimebau_lightsensor:tsl237t" H 4900 1350 50  0001 C CNN
+F 3 "" H 4900 1350 50  0001 C CNN
+	1    4900 1350
+	1    0    0    -1  
+$EndComp
+Text Label 5350 1450 0    50   ~ 0
+tsl237_freq
+$Comp
+L power:GND #PWR0101
+U 1 1 5E2CB871
+P 4350 1800
+F 0 "#PWR0101" H 4350 1550 50  0001 C CNN
+F 1 "GND" H 4355 1627 50  0000 C CNN
+F 2 "" H 4350 1800 50  0001 C CNN
+F 3 "" H 4350 1800 50  0001 C CNN
+	1    4350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1800 4350 1600
+Wire Wire Line
+	4350 1600 4450 1600
+Wire Wire Line
+	4450 1450 4350 1450
+Wire Wire Line
+	4350 1450 4350 1600
+Connection ~ 4350 1600
+Text Label 6300 1600 0    50   ~ 0
+tsl237_pwr
+Wire Wire Line
+	6800 2200 7900 2200
+$Comp
+L power:VDD #PWR013
+U 1 1 5E2F18A1
+P 9100 1500
+F 0 "#PWR013" H 9100 1350 50  0001 C CNN
+F 1 "VDD" H 9117 1673 50  0000 C CNN
+F 2 "" H 9100 1500 50  0001 C CNN
+F 3 "" H 9100 1500 50  0001 C CNN
+	1    9100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR014
+U 1 1 5E2F1ED1
+P 9550 1500
+F 0 "#PWR014" H 9550 1350 50  0001 C CNN
+F 1 "VDD" H 9567 1673 50  0000 C CNN
+F 2 "" H 9550 1500 50  0001 C CNN
+F 3 "" H 9550 1500 50  0001 C CNN
+	1    9550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3400 4150 3400
+Wire Wire Line
+	3650 2400 4400 2400
+Wire Wire Line
+	5350 1600 6300 1600
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E2FA5D5
+P 9500 4500
+F 0 "H1" H 9600 4546 50  0000 L CNN
+F 1 "MountingHole" H 9600 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9500 4500 50  0001 C CNN
+F 3 "~" H 9500 4500 50  0001 C CNN
+	1    9500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E2FB10A
+P 10000 5000
+F 0 "H2" H 10100 5046 50  0000 L CNN
+F 1 "MountingHole" H 10100 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 10000 5000 50  0001 C CNN
+F 3 "~" H 10000 5000 50  0001 C CNN
+	1    10000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E2FB3A2
+P 9000 5000
+F 0 "H4" H 9100 5046 50  0000 L CNN
+F 1 "MountingHole" H 9100 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9000 5000 50  0001 C CNN
+F 3 "~" H 9000 5000 50  0001 C CNN
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E2FB6E8
+P 9500 5500
+F 0 "H3" H 9600 5546 50  0000 L CNN
+F 1 "MountingHole" H 9600 5455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9500 5500 50  0001 C CNN
+F 3 "~" H 9500 5500 50  0001 C CNN
+	1    9500 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
