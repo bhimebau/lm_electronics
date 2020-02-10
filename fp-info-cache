@@ -1,4 +1,4 @@
-16684983579133099
+17036243395572452
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -125,6 +125,13 @@ Keystone type 2993 negative battery contact
 0
 1
 1
+Battery
+BatteryHolder_Keystone_2998_1x6.8mm
+www.keyelco.com/product-pdf.cfm?p=763
+Keystone type 2998 battery holder
+0
+3
+2
 Battery
 BatteryHolder_Keystone_3000_1x12mm
 http://www.keyelco.com/product-pdf.cfm?p=777
@@ -1147,6 +1154,13 @@ switch normally-open pushbutton push-button
 0
 4
 4
+Button_Switch_SMD
+SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010
+Side push button (https://www.alps.com/prod/info/E/PDF/Tact/SurfaceMount/SKRT/SKRT.pdf)
+push horizontal SPST 1P1T
+0
+5
+3
 Button_Switch_SMD
 SW_Push_1P1T-SH_NO_CK_KMR2xxG
 CK components KMR2 tactile switch with ground pin http://www.ckswitches.com/media/1479/kmr2.pdf
@@ -6473,6 +6487,13 @@ Dual front isolated BNC plug (https://www.winconn.com/wp-content/uploads/364A259
 Dual BNC Horizontal Isolated
 0
 6
+3
+Connector_Coaxial
+CoaxialSwitch_Hirose_MS-156C3_Horizontal
+Subminiature Coaxial Switch 1.35mm High, DC to 11GHz
+Switch Coaxial RF
+0
+12
 3
 Connector_Coaxial
 MMCX_Molex_73415-0961_Horizontal_0.8mm-PCB
@@ -18566,6 +18587,48 @@ connector Molex SlimStack vertical
 Connector_Molex
 Molex_SlimStack_52991-0808_2x40_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0808, 80 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
+0
+80
+80
+Connector_Molex
+Molex_SlimStack_53748-0208_2x10_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 53748-0208, 20 Pins (https://www.molex.com/pdm_docs/sd/537480308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
+0
+20
+20
+Connector_Molex
+Molex_SlimStack_53748-0308_2x15_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 53748-0308, 30 Pins (https://www.molex.com/pdm_docs/sd/537480308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
+0
+30
+30
+Connector_Molex
+Molex_SlimStack_53748-0408_2x20_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 53748-0408, 40 Pins (https://www.molex.com/pdm_docs/sd/537480308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
+0
+40
+40
+Connector_Molex
+Molex_SlimStack_53748-0608_2x30_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 53748-0608, 60 Pins (https://www.molex.com/pdm_docs/sd/537480308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
+0
+60
+60
+Connector_Molex
+Molex_SlimStack_53748-0708_2x35_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 53748-0708, 70 Pins (https://www.molex.com/pdm_docs/sd/537480308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack vertical
+0
+70
+70
+Connector_Molex
+Molex_SlimStack_53748-0808_2x40_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 53748-0808, 80 Pins (https://www.molex.com/pdm_docs/sd/537480308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
 0
 80
@@ -41762,6 +41825,13 @@ USB C Type-C Receptacle USB2.0
 20
 17
 Connector_USB
+USB_C_Receptacle_XKB_U262-16XN-4BVC11
+USB Type C, right-angle, SMT, https://datasheet.lcsc.com/szlcsc/1811141824_XKB-Enterprise-U262-161N-4BVC11_C319148.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
+Connector_USB
 USB_Micro-AB_Molex_47590-0001
 Micro USB AB receptable, right-angle inverted (https://www.molex.com/pdm_docs/sd/475900001_sd.pdf)
 Micro AB USB SMD
@@ -42531,6 +42601,20 @@ MeanWell NID60
 0
 11
 11
+Converter_DCDC
+Converter_DCDC_Murata_MEE1SxxxxSC_THT
+https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
+murata dc-dc transformer
+0
+4
+4
+Converter_DCDC
+Converter_DCDC_Murata_MEE3SxxxxSC_THT
+https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf
+murata dc-dc transformer
+0
+4
+4
 Converter_DCDC
 Converter_DCDC_Murata_MGJ2DxxxxxxSC_THT
 Murata MGJ2DxxxxxxSC, 19.5x9.8x12.5mm, 5.2kVDC Isolated, 2W, SIP package style, https://power.murata.com/data/power/ncl/kdc_mgj2.pdf
@@ -44586,6 +44670,13 @@ Diode_SMD
 D_SOD-523
 http://www.diodes.com/datasheets/ap02001.pdf p.144
 Diode SOD523
+0
+2
+2
+Diode_SMD
+D_SOD-923
+https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4
+Diode SOD923
 0
 2
 2
@@ -46711,6 +46802,13 @@ Fuseholder 5x20mm horizontal closed
 3
 2
 Fuse
+Fuseholder_Cylinder-5x20mm_Schurter_OGN-SMD_Horizontal_Open
+Fuseholder horizontal open, 5x20mm, 500V, 16A (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN-SMD.pdf)
+Fuseholder horizontal open 5x20 Schurter 0031.8221
+0
+2
+2
+Fuse
 Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open
 https://www.tme.eu/en/Document/3b48dbe2b9714a62652c97b08fcd464b/PTF78.pdf
 Fuseholder horizontal open 5x20 Stelvio-Kontek PTF/78
@@ -46780,6 +46878,13 @@ Heatsink TV5G TO-220 Horizontal
 0
 0
 0
+Heatsink
+Heatsink_Fischer_FK224xx2201_25x8.3mm
+25x8.3mm Heatsink, 18K/W, TO-220, https://www.fischerelektronik.de/web_fischer/en_GB/$catalogue/fischerData/PR/FK224_220_1_/datasheet.xhtml?branch=heatsinks
+heatsink TO-220
+0
+2
+1
 Heatsink
 Heatsink_Fischer_FK24413D2PAK_26x13mm
 26x13 mm SMD heatsink for TO-252 TO-263 TO-268, https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/fk_244_13_d2_pak.pdf
@@ -53361,6 +53466,13 @@ BGA 196 0.75
 196
 196
 Package_BGA
+ST_uTFBGA-36_3.6x3.6mm_Layout6x6_P0.5mm
+ST uTFBGA-36, 0.25mm pad, 3.6x3.6mm, 36 Ball, 6x6 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stulpi01a.pdf
+BGA 36 0.5
+0
+36
+36
+Package_BGA
 TFBGA-64_5x5mm_Layout8x8_P0.5mm
 TFBGA-64, 8x8 raster, 5x5mm package, pitch 0.5mm; see section 6.3 of http://www.st.com/resource/en/datasheet/stm32f100v8.pdf
 BGA 64 0.5
@@ -54628,6 +54740,13 @@ DFN 0.4
 6
 6
 Package_DFN_QFN
+DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm
+DFN, 8 Pin (https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+13
+9
+Package_DFN_QFN
 DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.3mm
 DFN, 8 Pin (https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF#page=7), generated with kicad-footprint-generator ipc_noLead_generator.py
 DFN NoLead
@@ -54971,6 +55090,13 @@ DFN package size 1006 3 pins
 3
 3
 Package_DFN_QFN
+Diodes_UDFN-10_1.0x2.5mm_P0.5mm
+U-DFN2510-10 package used by Diodes Incorporated (https://www.diodes.com/assets/Package-Files/U-DFN2510-10-Type-CJ.pdf)
+UDFN-10 U-DFN2510-10 Diodes
+0
+10
+10
+Package_DFN_QFN
 Infineon_MLPQ-16-14-1EP_4x4mm_P0.5mm
 MLPQ 32 leads, 7x7mm, 0.127mm stencil (https://www.infineon.com/dgdl/Infineon-AN1170-AN-v05_00-EN.pdf?fileId=5546d462533600a40153559ac3e51134)
 mlpq 32 7x7mm
@@ -55182,15 +55308,15 @@ panasonic hson
 9
 Package_DFN_QFN
 QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm
-QFN, 12 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_12_%2005-08-1855.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 12 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_12_%2005-08-1855.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 17
 13
 Package_DFN_QFN
 QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm_ThermalVias
-QFN, 12 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_12_%2005-08-1855.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 12 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_12_%2005-08-1855.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 22
 13
@@ -55202,16 +55328,9 @@ QFN NoLead
 17
 13
 Package_DFN_QFN
-QFN-14-1EP_1.6x1.6mm_P0.4mm_EP0.74x0.74mm
-QFN, 14 Pin (http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-19
-15
-Package_DFN_QFN
 QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm
-QFN, 16 Pin (https://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/94/16/69/af/4b/58/DM00047334.pdf/files/DM00047334.pdf/jcr:content/translations/en.DM00047334.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.st.com/resource/en/datasheet/tsv521.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
@@ -55224,29 +55343,29 @@ QFN DFN_QFN
 17
 Package_DFN_QFN
 QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm
-QFN, 16 Pin (https://www.nxp.com/docs/en/package-information/98ASA00525D.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.nxp.com/docs/en/package-information/98ASA00525D.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm_ThermalVias
-QFN, 16 Pin (https://www.nxp.com/docs/en/package-information/98ASA00525D.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.nxp.com/docs/en/package-information/98ASA00525D.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 26
 17
 Package_DFN_QFN
 QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm
-QFN, 16 Pin (http://cds.linear.com/docs/en/datasheet/37551fd.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (http://cds.linear.com/docs/en/datasheet/37551fd.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm_ThermalVias
-QFN, 16 Pin (http://cds.linear.com/docs/en/datasheet/37551fd.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (http://cds.linear.com/docs/en/datasheet/37551fd.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 26
 17
@@ -55266,29 +55385,29 @@ QFN NoLead
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.5mm_EP2.45x2.45mm
-QFN, 16 Pin (https://www.renesas.com/eu/en/www/doc/datasheet/isl8117.pdf#page=22), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.renesas.com/eu/en/www/doc/datasheet/isl8117.pdf#page=22), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias
-QFN, 16 Pin (https://www.renesas.com/eu/en/www/doc/datasheet/isl8117.pdf#page=22), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.renesas.com/eu/en/www/doc/datasheet/isl8117.pdf#page=22), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 31
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm
-QFN, 16 Pin (http://www.thatcorp.com/datashts/THAT_1580_Datasheet.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (http://www.thatcorp.com/datashts/THAT_1580_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias
-QFN, 16 Pin (http://www.thatcorp.com/datashts/THAT_1580_Datasheet.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (http://www.thatcorp.com/datashts/THAT_1580_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 31
 17
@@ -55308,57 +55427,57 @@ QFN NoLead
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm
-QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm_PullBack
-QFN, 16 Pin (https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf#page=24), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm_PullBack_ThermalVias
-QFN, 16 Pin (https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf#page=24), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 31
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm_ThermalVias
-QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 31
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm
-QFN, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4001f.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4001f.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm_ThermalVias
-QFN, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4001f.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4001f.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 31
 17
 Package_DFN_QFN
 QFN-16-1EP_5x5mm_P0.8mm_EP2.7x2.7mm
-QFN, 16 Pin (http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.5x5.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.5x5.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 QFN-16-1EP_5x5mm_P0.8mm_EP2.7x2.7mm_ThermalVias
-QFN, 16 Pin (http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.5x5.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 16 Pin (http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.5x5.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 31
 17
@@ -55392,57 +55511,57 @@ QFN NoLead
 21
 Package_DFN_QFN
 QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf#page=212), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf#page=212), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 25
 21
 Package_DFN_QFN
 QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm_ThermalVias
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf#page=212), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf#page=212), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 30
 21
 Package_DFN_QFN
 QFN-20-1EP_3x4mm_P0.5mm_EP1.65x2.65mm
-QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 25
 21
 Package_DFN_QFN
 QFN-20-1EP_3x4mm_P0.5mm_EP1.65x2.65mm_ThermalVias
-QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 32
 21
 Package_DFN_QFN
 QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 25
 21
 Package_DFN_QFN
 QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 30
 21
 Package_DFN_QFN
 QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=164), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=164), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 25
 21
 Package_DFN_QFN
 QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=164), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=164), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 30
 21
@@ -55462,99 +55581,99 @@ QFN NoLead
 21
 Package_DFN_QFN
 QFN-20-1EP_4x5mm_P0.5mm_EP2.65x3.65mm
-QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1711.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1711.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 27
 21
 Package_DFN_QFN
 QFN-20-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias
-QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1711.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1711.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 40
 21
 Package_DFN_QFN
 QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=276), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=276), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 25
 21
 Package_DFN_QFN
 QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm_ThermalVias
-QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=276), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=276), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 35
 21
 Package_DFN_QFN
 QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm
-QFN, 24 Pin (https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf#page=39), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm_ThermalVias
-QFN, 24 Pin (https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf#page=39), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 34
 25
 Package_DFN_QFN
 QFN-24-1EP_3x4mm_P0.4mm_EP1.65x2.65mm
-QFN, 24 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 31
 25
 Package_DFN_QFN
 QFN-24-1EP_3x4mm_P0.4mm_EP1.65x2.65mm_ThermalVias
-QFN, 24 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_20_05-08-1742.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 38
 25
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
-QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
-QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 39
 25
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.6mm
-QFN, 24 Pin (https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.6mm_ThermalVias
-QFN, 24 Pin (https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 39
 25
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm
-QFN, 24 Pin (http://www.alfarzpp.lv/eng/sc/AS3330.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://www.alfarzpp.lv/eng/sc/AS3330.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias
-QFN, 24 Pin (http://www.alfarzpp.lv/eng/sc/AS3330.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://www.alfarzpp.lv/eng/sc/AS3330.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 39
 25
@@ -55574,85 +55693,85 @@ QFN NoLead
 25
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm
-QFN, 24 Pin (http://www.cypress.com/file/46236/download), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://www.cypress.com/file/46236/download), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm_ThermalVias
-QFN, 24 Pin (http://www.cypress.com/file/46236/download), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://www.cypress.com/file/46236/download), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 39
 25
 Package_DFN_QFN
 QFN-24-1EP_4x5mm_P0.5mm_EP2.65x3.65mm
-QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_24_05-08-1696.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_24_05-08-1696.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 31
 25
 Package_DFN_QFN
 QFN-24-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias
-QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_24_05-08-1696.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_24_05-08-1696.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 44
 25
 Package_DFN_QFN
 QFN-24-1EP_5x5mm_P0.65mm_EP3.2x3.2mm
-QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/(UH24)%20QFN%2005-08-1747%20Rev%20A.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/(UH24)%20QFN%2005-08-1747%20Rev%20A.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 QFN-24-1EP_5x5mm_P0.65mm_EP3.2x3.2mm_ThermalVias
-QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/(UH24)%20QFN%2005-08-1747%20Rev%20A.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/(UH24)%20QFN%2005-08-1747%20Rev%20A.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 51
 25
 Package_DFN_QFN
 QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm
-QFN, 24 Pin (http://www.thatcorp.com/datashts/THAT_5173_Datasheet.pdf#page=17), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://www.thatcorp.com/datashts/THAT_5173_Datasheet.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 QFN-24-1EP_5x5mm_P0.65mm_EP3.4x3.4mm_ThermalVias
-QFN, 24 Pin (http://www.thatcorp.com/datashts/THAT_5173_Datasheet.pdf#page=17), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (http://www.thatcorp.com/datashts/THAT_5173_Datasheet.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 39
 25
 Package_DFN_QFN
 QFN-24-1EP_5x5mm_P0.65mm_EP3.6x3.6mm
-QFN, 24 Pin (https://www.nxp.com/docs/en/package-information/98ASA00734D.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://www.nxp.com/docs/en/package-information/98ASA00734D.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 34
 25
 Package_DFN_QFN
 QFN-24-1EP_5x5mm_P0.65mm_EP3.6x3.6mm_ThermalVias
-QFN, 24 Pin (https://www.nxp.com/docs/en/package-information/98ASA00734D.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 24 Pin (https://www.nxp.com/docs/en/package-information/98ASA00734D.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 67
 25
 Package_DFN_QFN
 QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mm
-QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081926_0_UDE28.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081926_0_UDE28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 37
 29
 Package_DFN_QFN
 QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mm_ThermalVias
-QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081926_0_UDE28.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081926_0_UDE28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 53
 29
@@ -55672,15 +55791,15 @@ QFN NoLead
 29
 Package_DFN_QFN
 QFN-28-1EP_4x4mm_P0.4mm_EP2.4x2.4mm
-QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=280), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=280), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 33
 29
 Package_DFN_QFN
 QFN-28-1EP_4x4mm_P0.4mm_EP2.4x2.4mm_ThermalVias
-QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=280), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=280), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 43
 29
@@ -55700,148 +55819,148 @@ QFN NoLead
 29
 Package_DFN_QFN
 QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm
-QFN, 28 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf#page=16), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 33
 29
 Package_DFN_QFN
 QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm_ThermalVias
-QFN, 28 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf#page=16), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 43
 29
 Package_DFN_QFN
 QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm
-QFN, 28 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf#page=32), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf#page=32), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 35
 29
 Package_DFN_QFN
 QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias
-QFN, 28 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf#page=32), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf#page=32), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 48
 29
 Package_DFN_QFN
 QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm
-QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 38
 29
 Package_DFN_QFN
 QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_ThermalVias
-QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 55
 29
 Package_DFN_QFN
 QFN-28-1EP_5x6mm_P0.5mm_EP3.65x4.65mm
-QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081932_0_UHE28.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081932_0_UHE28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 41
 29
 Package_DFN_QFN
 QFN-28-1EP_5x6mm_P0.5mm_EP3.65x4.65mm_ThermalVias
-QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081932_0_UHE28.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081932_0_UHE28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 62
 29
 Package_DFN_QFN
 QFN-28-1EP_6x6mm_P0.65mm_EP4.8x4.8mm
-QFN, 28 Pin (https://www.semtech.com/uploads/documents/sx1272.pdf#page=125), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (https://www.semtech.com/uploads/documents/sx1272.pdf#page=125), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 38
 29
 Package_DFN_QFN
 QFN-28-1EP_6x6mm_P0.65mm_EP4.8x4.8mm_ThermalVias
-QFN, 28 Pin (https://www.semtech.com/uploads/documents/sx1272.pdf#page=125), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (https://www.semtech.com/uploads/documents/sx1272.pdf#page=125), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 71
 29
 Package_DFN_QFN
 QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm
-QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=289), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=289), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 38
 29
 Package_DFN_QFN
 QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm_ThermalVias
-QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=289), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=289), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 71
 29
 Package_DFN_QFN
 QFN-28_4x4mm_P0.5mm
-QFN, 28 Pin (http://www.st.com/resource/en/datasheet/stm32f031k6.pdf#page=90), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 28 Pin (http://www.st.com/resource/en/datasheet/stm32f031k6.pdf#page=90), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 28
 28
 Package_DFN_QFN
 QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm
-QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf (Page 70)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 37
 33
 Package_DFN_QFN
 QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm_ThermalVias
-QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf (Page 70)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 47
 33
 Package_DFN_QFN
 QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm
-QFN, 32 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/l32.4x4a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/l32.4x4a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 37
 33
 Package_DFN_QFN
 QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm_ThermalVias
-QFN, 32 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/l32.4x4a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/l32.4x4a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 59
 33
 Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm
-QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf (Page 20)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf#page=20), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 42
 33
 Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias
-QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf (Page 20)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf#page=20), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 59
 33
 Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm
-QFN, 32 Pin (http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf (Page 468)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf#page=468), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 42
 33
 Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias
-QFN, 32 Pin (http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf (Page 468)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf#page=468), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 59
 33
@@ -55861,169 +55980,169 @@ QFN NoLead
 33
 Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
-QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 42
 33
 Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias
-QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 59
 33
 Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.65x3.65mm
-QFN, 32 Pin (https://www.exar.com/ds/mxl7704.pdf (Page 35)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (https://www.exar.com/ds/mxl7704.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 42
 33
 Package_DFN_QFN
 QFN-32-1EP_5x5mm_P0.5mm_EP3.65x3.65mm_ThermalVias
-QFN, 32 Pin (https://www.exar.com/ds/mxl7704.pdf (Page 35)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (https://www.exar.com/ds/mxl7704.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 59
 33
 Package_DFN_QFN
 QFN-32-1EP_7x7mm_P0.65mm_EP4.7x4.7mm
-QFN, 32 Pin (https://www.nxp.com/docs/en/data-sheet/LPC111X.pdf (Page 108)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (https://www.nxp.com/docs/en/data-sheet/LPC111X.pdf#page=108), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 49
 33
 Package_DFN_QFN
 QFN-32-1EP_7x7mm_P0.65mm_EP4.7x4.7mm_ThermalVias
-QFN, 32 Pin (https://www.nxp.com/docs/en/data-sheet/LPC111X.pdf (Page 108)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (https://www.nxp.com/docs/en/data-sheet/LPC111X.pdf#page=108), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 75
 33
 Package_DFN_QFN
 QFN-32-1EP_7x7mm_P0.65mm_EP4.65x4.65mm
-QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf (Page 426)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf#page=426), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 49
 33
 Package_DFN_QFN
 QFN-32-1EP_7x7mm_P0.65mm_EP4.65x4.65mm_ThermalVias
-QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf (Page 426)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf#page=426), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 75
 33
 Package_DFN_QFN
 QFN-32-1EP_7x7mm_P0.65mm_EP5.4x5.4mm
-QFN, 32 Pin (http://www.thatcorp.com/datashts/THAT_5171_Datasheet.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://www.thatcorp.com/datashts/THAT_5171_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 49
 33
 Package_DFN_QFN
 QFN-32-1EP_7x7mm_P0.65mm_EP5.4x5.4mm_ThermalVias
-QFN, 32 Pin (http://www.thatcorp.com/datashts/THAT_5171_Datasheet.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 32 Pin (http://www.thatcorp.com/datashts/THAT_5171_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 75
 33
 Package_DFN_QFN
 QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm
-QFN, 36 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf (page 43)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 36 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf#page=43), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 46
 37
 Package_DFN_QFN
 QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias
-QFN, 36 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf (page 43)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 36 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf#page=43), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 56
 37
 Package_DFN_QFN
 QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.6mm
-QFN, 36 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/(UHE36)%20QFN%2005-08-1876%20Rev%20%C3%98.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 36 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/(UHE36)%20QFN%2005-08-1876%20Rev%20%C3%98.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 49
 37
 Package_DFN_QFN
 QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.6mm_ThermalVias
-QFN, 36 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/(UHE36)%20QFN%2005-08-1876%20Rev%20%C3%98.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 36 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/(UHE36)%20QFN%2005-08-1876%20Rev%20%C3%98.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 56
 37
 Package_DFN_QFN
 QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm
-QFN, 36 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/36L_QFN_6x6_with_3_7x3_7_EP_Punch_Dimpled_4E_C04-0241A.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 36 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/36L_QFN_6x6_with_3_7x3_7_EP_Punch_Dimpled_4E_C04-0241A.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 46
 37
 Package_DFN_QFN
 QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm_ThermalVias
-QFN, 36 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/36L_QFN_6x6_with_3_7x3_7_EP_Punch_Dimpled_4E_C04-0241A.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 36 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/36L_QFN_6x6_with_3_7x3_7_EP_Punch_Dimpled_4E_C04-0241A.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 63
 37
 Package_DFN_QFN
 QFN-36-1EP_6x6mm_P0.5mm_EP4.1x4.1mm
-QFN, 36 Pin (www.st.com/resource/en/datasheet/stm32f101t6.pdf (page 72)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 36 Pin (www.st.com/resource/en/datasheet/stm32f101t6.pdf#page=72), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 46
 37
 Package_DFN_QFN
 QFN-36-1EP_6x6mm_P0.5mm_EP4.1x4.1mm_ThermalVias
-QFN, 36 Pin (www.st.com/resource/en/datasheet/stm32f101t6.pdf (page 72)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 36 Pin (www.st.com/resource/en/datasheet/stm32f101t6.pdf#page=72), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 63
 37
 Package_DFN_QFN
 QFN-38-1EP_4x6mm_P0.4mm_EP2.65x4.65mm
-QFN, 38 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_38_05-08-1750.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 38 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_38_05-08-1750.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 47
 39
 Package_DFN_QFN
 QFN-38-1EP_4x6mm_P0.4mm_EP2.65x4.65mm_ThermalVias
-QFN, 38 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_38_05-08-1750.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 38 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_38_05-08-1750.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 56
 39
 Package_DFN_QFN
 QFN-38-1EP_5x7mm_P0.5mm_EP3.15x5.15mm
-QFN, 38 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_38_05-08-1701.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 38 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_38_05-08-1701.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 54
 39
 Package_DFN_QFN
 QFN-38-1EP_5x7mm_P0.5mm_EP3.15x5.15mm_ThermalVias
-QFN, 38 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_38_05-08-1701.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 38 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_38_05-08-1701.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 63
 39
 Package_DFN_QFN
 QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm
-QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=297), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=297), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 50
 41
 Package_DFN_QFN
 QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias
-QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=297), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=297), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 67
 41
@@ -56043,71 +56162,71 @@ QFN NoLead
 41
 Package_DFN_QFN
 QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm
-QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=295), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=295), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 57
 41
 Package_DFN_QFN
 QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm_ThermalVias
-QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=295), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 40 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=295), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 83
 41
 Package_DFN_QFN
 QFN-42-1EP_5x6mm_P0.4mm_EP3.7x4.7mm
-QFN, 42 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081875_0_UHE42.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 42 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081875_0_UHE42.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 55
 43
 Package_DFN_QFN
 QFN-42-1EP_5x6mm_P0.4mm_EP3.7x4.7mm_ThermalVias
-QFN, 42 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081875_0_UHE42.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 42 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081875_0_UHE42.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 76
 43
 Package_DFN_QFN
 QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm
-QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/2512S.pdf#page=17), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/2512S.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 61
 45
 Package_DFN_QFN
 QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_ThermalVias
-QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/2512S.pdf#page=17), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/2512S.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 87
 45
 Package_DFN_QFN
 QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm
-QFN, 44 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_44_05-08-1763.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 44 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_44_05-08-1763.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 61
 45
 Package_DFN_QFN
 QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias
-QFN, 44 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_44_05-08-1763.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 44 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_44_05-08-1763.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 87
 45
 Package_DFN_QFN
 QFN-44-1EP_8x8mm_P0.65mm_EP6.45x6.45mm
-QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf#page=152), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf#page=152), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 70
 45
 Package_DFN_QFN
 QFN-44-1EP_8x8mm_P0.65mm_EP6.45x6.45mm_ThermalVias
-QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf#page=152), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf#page=152), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 107
 45
@@ -56127,127 +56246,127 @@ QFN 0.65
 45
 Package_DFN_QFN
 QFN-48-1EP_5x5mm_P0.35mm_EP3.7x3.7mm
-QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 58
 49
 Package_DFN_QFN
 QFN-48-1EP_5x5mm_P0.35mm_EP3.7x3.7mm_ThermalVias
-QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 75
 49
 Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm
-QFN, 48 Pin (https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1p5.pdf#page=20), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1p5.pdf#page=20), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 58
 49
 Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm_ThermalVias
-QFN, 48 Pin (https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1p5.pdf#page=20), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1p5.pdf#page=20), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 91
 49
 Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm
-QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 58
 49
 Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm_ThermalVias
-QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf#page=38), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 75
 49
 Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm
-QFN, 48 Pin (http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf#page=67), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf#page=67), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 58
 49
 Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias
-QFN, 48 Pin (http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf#page=67), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf#page=67), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 91
 49
 Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.66x4.66mm
-QFN, 48 Pin (https://www.onsemi.com/pub/Collateral/485BA.PDF), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://www.onsemi.com/pub/Collateral/485BA.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 58
 49
 Package_DFN_QFN
 QFN-48-1EP_6x6mm_P0.4mm_EP4.66x4.66mm_ThermalVias
-QFN, 48 Pin (https://www.onsemi.com/pub/Collateral/485BA.PDF), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://www.onsemi.com/pub/Collateral/485BA.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 91
 49
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm
-QFN, 48 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf#page=62), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 65
 49
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm_ThermalVias
-QFN, 48 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf#page=62), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 91
 49
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm
-QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 65
 49
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias
-QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 91
 49
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm
-QFN, 48 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_48_05-08-1704.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_48_05-08-1704.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 65
 49
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias
-QFN, 48 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_48_05-08-1704.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_48_05-08-1704.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 91
 49
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm
-QFN, 48 Pin (http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 65
 49
 Package_DFN_QFN
 QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm_ThermalVias
-QFN, 48 Pin (http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 48 Pin (http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 91
 49
@@ -56267,43 +56386,57 @@ QFN NoLead
 49
 Package_DFN_QFN
 QFN-52-1EP_7x8mm_P0.5mm_EP5.41x6.45mm
-QFN, 52 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_52_05-08-1729.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 52 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_52_05-08-1729.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 73
 53
 Package_DFN_QFN
 QFN-52-1EP_7x8mm_P0.5mm_EP5.41x6.45mm_ThermalVias
-QFN, 52 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_52_05-08-1729.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 52 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_52_05-08-1729.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 104
 53
 Package_DFN_QFN
 QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 73
 57
 Package_DFN_QFN
 QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm_ThermalVias
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+99
+57
+Package_DFN_QFN
+QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm
+QFN, 56 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+73
+57
+Package_DFN_QFN
+QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm_ThermalVias
+QFN, 56 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 99
 57
 Package_DFN_QFN
 QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm
-QFN, 56 Pin (http://www.ti.com/lit/an/scea032/scea032.pdf#page=4), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 56 Pin (http://www.ti.com/lit/an/scea032/scea032.pdf#page=4), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 73
 57
 Package_DFN_QFN
 QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias
-QFN, 56 Pin (http://www.ti.com/lit/an/scea032/scea032.pdf#page=4), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 56 Pin (http://www.ti.com/lit/an/scea032/scea032.pdf#page=4), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 99
 57
@@ -56316,15 +56449,15 @@ QFN DFN_QFN
 57
 Package_DFN_QFN
 QFN-56-1EP_8x8mm_P0.5mm_EP5.6x5.6mm
-QFN, 56 Pin (http://www.ti.com/lit/ds/symlink/tlc5957.pdf#page=23), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 56 Pin (http://www.ti.com/lit/ds/symlink/tlc5957.pdf#page=23), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 73
 57
 Package_DFN_QFN
 QFN-56-1EP_8x8mm_P0.5mm_EP5.6x5.6mm_ThermalVias
-QFN, 56 Pin (http://www.ti.com/lit/ds/symlink/tlc5957.pdf#page=23), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 56 Pin (http://www.ti.com/lit/ds/symlink/tlc5957.pdf#page=23), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 99
 57
@@ -56358,15 +56491,15 @@ QFN NoLead
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf (page 1083)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf (page 1083)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 74
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_ThermalVias
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf (page 1083)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf (page 1083)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 91
 65
@@ -56386,15 +56519,15 @@ QFN NoLead
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP5.4x5.4mm
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/70593d.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/70593d.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 81
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP5.4x5.4mm_ThermalVias
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/70593d.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/70593d.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 107
 65
@@ -56414,43 +56547,43 @@ QFN NoLead
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm
-QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/tusb8041.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/tusb8041.pdf#page=42), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 81
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm_ThermalVias
-QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/tusb8041.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/tusb8041.pdf#page=42), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 107
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf (page 43)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf (page 43)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 90
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm_ThermalVias
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf (page 43)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf (page 43)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 127
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf (page 432)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf (page 432)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 101
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm_ThermalVias
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf (page 432)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf (page 432)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 151
 65
@@ -56484,29 +56617,29 @@ QFN 0.5
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 101
 65
 Package_DFN_QFN
 QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm_ThermalVias
-QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 151
 65
 Package_DFN_QFN
 QFN-68-1EP_8x8mm_P0.4mm_EP5.2x5.2mm
-QFN, 68 Pin (https://cdn.microsemi.com/documents/1bf6886f-5919-4508-a50b-b1dbf3fdf0f4/download/#page=98), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 68 Pin (https://cdn.microsemi.com/documents/1bf6886f-5919-4508-a50b-b1dbf3fdf0f4/download/#page=98), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 85
 69
 Package_DFN_QFN
 QFN-68-1EP_8x8mm_P0.4mm_EP5.2x5.2mm_ThermalVias
-QFN, 68 Pin (https://cdn.microsemi.com/documents/1bf6886f-5919-4508-a50b-b1dbf3fdf0f4/download/#page=98), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 68 Pin (https://cdn.microsemi.com/documents/1bf6886f-5919-4508-a50b-b1dbf3fdf0f4/download/#page=98), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 111
 69
@@ -56526,15 +56659,15 @@ QFN NoLead
 73
 Package_DFN_QFN
 QFN-76-1EP_9x9mm_P0.4mm_EP3.8x3.8mm
-QFN, 76 Pin (https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/#page=19), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 76 Pin (https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/#page=19), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 86
 77
 Package_DFN_QFN
 QFN-76-1EP_9x9mm_P0.4mm_EP3.8x3.8mm_ThermalVias
-QFN, 76 Pin (https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/#page=19), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
+QFN, 76 Pin (https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/#page=19), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
 0
 103
 77
@@ -56617,8 +56750,8 @@ DFN
 12
 Package_DFN_QFN
 TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm
-TQFN, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0136.PDF (T1633-5), https://pdfserv.maximintegrated.com/land_patterns/90-0032.PDF), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-TQFN DFN_QFN
+TQFN, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0136.PDF (T1633-5), https://pdfserv.maximintegrated.com/land_patterns/90-0032.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+TQFN NoLead
 0
 21
 17
@@ -56645,15 +56778,15 @@ TQFN NoLead
 21
 Package_DFN_QFN
 TQFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mm_PullBack
-TQFN, 24 Pin (https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-TQFN DFN_QFN
+TQFN, 24 Pin (https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f), generated with kicad-footprint-generator ipc_noLead_generator.py
+TQFN NoLead
 0
 29
 25
 Package_DFN_QFN
 TQFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mm_PullBack_ThermalVias
-TQFN, 24 Pin (https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-TQFN DFN_QFN
+TQFN, 24 Pin (https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f), generated with kicad-footprint-generator ipc_noLead_generator.py
+TQFN NoLead
 0
 39
 25
@@ -56694,28 +56827,28 @@ QFN NoLead
 29
 Package_DFN_QFN
 Texas_RGE0024C_EP2.1x2.1mm
-Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/pca9548a.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/pca9548a.pdf#page=37), generated with kicad-footprint-generator ipc_noLead_generator.py
 Texas QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 Texas_RGE0024C_EP2.1x2.1mm_ThermalVias
-Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/pca9548a.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/pca9548a.pdf#page=37), generated with kicad-footprint-generator ipc_noLead_generator.py
 Texas QFN NoLead
 0
 39
 25
 Package_DFN_QFN
 Texas_RGE0024H_EP2.7x2.7mm
-Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=43), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py
 Texas QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 Texas_RGE0024H_EP2.7x2.7mm_ThermalVias
-Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=43), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas  QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=39), generated with kicad-footprint-generator ipc_noLead_generator.py
 Texas QFN NoLead
 0
 39
@@ -56876,140 +57009,140 @@ QFN NoLead
 21
 Package_DFN_QFN
 Texas_S-PVQFN-N24_EP2.1x2.1mm
-QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430fr5720.pdf#page=111), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430fr5720.pdf#page=108), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 29
 25
 Package_DFN_QFN
 Texas_S-PVQFN-N24_EP2.1x2.1mm_ThermalVias
-QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430fr5720.pdf#page=111), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430fr5720.pdf#page=108), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 39
 25
 Package_DFN_QFN
 Texas_S-PVQFN-N32_EP3.45x3.45mm
-QFN, 32 Pin (http://www.ti.com/lit/ds/symlink/msp430f1122.pdf#page=46), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 32 Pin (http://www.ti.com/lit/ds/symlink/msp430f1122.pdf#page=54), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 42
 33
 Package_DFN_QFN
 Texas_S-PVQFN-N32_EP3.45x3.45mm_ThermalVias
-QFN, 32 Pin (http://www.ti.com/lit/ds/symlink/msp430f1122.pdf#page=46), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 32 Pin (http://www.ti.com/lit/ds/symlink/msp430f1122.pdf#page=54), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 59
 33
 Package_DFN_QFN
 Texas_S-PVQFN-N36_EP4.4x4.4mm
-QFN, 36 Pin (http://www.ti.com/lit/ds/slvsba5d/slvsba5d.pdf#page=31), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 36 Pin (http://www.ti.com/lit/ds/slvsba5d/slvsba5d.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 46
 37
 Package_DFN_QFN
 Texas_S-PVQFN-N36_EP4.4x4.4mm_ThermalVias
-QFN, 36 Pin (http://www.ti.com/lit/ds/slvsba5d/slvsba5d.pdf#page=31), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 36 Pin (http://www.ti.com/lit/ds/slvsba5d/slvsba5d.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 79
 37
 Package_DFN_QFN
 Texas_S-PVQFN-N40_EP2.9x2.9mm
-QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430fr5731.pdf#page=114), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430fr5731.pdf#page=111 JEDEC MO-220 variation VJJD-2), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 45
 41
 Package_DFN_QFN
 Texas_S-PVQFN-N40_EP2.9x2.9mm_ThermalVias
-QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430fr5731.pdf#page=114), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430fr5731.pdf#page=111 JEDEC MO-220 variation VJJD-2), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 55
 41
 Package_DFN_QFN
 Texas_S-PVQFN-N40_EP3.52x2.62mm
-QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/drv8308.pdf#page=56), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/drv8308.pdf#page=56 JEDEC MO-220 variation VJJD-2), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 47
 41
 Package_DFN_QFN
 Texas_S-PVQFN-N40_EP3.52x2.62mm_ThermalVias
-QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/drv8308.pdf#page=56), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/drv8308.pdf#page=56 JEDEC MO-220 variation VJJD-2), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 60
 41
 Package_DFN_QFN
 Texas_S-PVQFN-N40_EP4.6x4.6mm
-QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/dac7750.pdf#page=55), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/dac7750.pdf#page=54), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 50
 41
 Package_DFN_QFN
 Texas_S-PVQFN-N40_EP4.6x4.6mm_ThermalVias
-QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/dac7750.pdf#page=55), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/dac7750.pdf#page=54), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 83
 41
 Package_DFN_QFN
 Texas_S-PVQFN-N40_EP4.15x4.15mm
-QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430g2755.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430g2755.pdf#page=70 JEDEC MO-220 variation VJJD-2), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 50
 41
 Package_DFN_QFN
 Texas_S-PVQFN-N40_EP4.15x4.15mm_ThermalVias
-QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430g2755.pdf#page=70), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430g2755.pdf#page=70 JEDEC MO-220 variation VJJD-2), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 83
 41
 Package_DFN_QFN
 Texas_S-PVQFN-N48_EP5.15x5.15mm
-QFN, 48 Pin (http://www.ti.com/lit/ds/symlink/msp430f5232.pdf#page=112), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 48 Pin (http://www.ti.com/lit/ds/symlink/msp430f5232.pdf#page=111), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 65
 49
 Package_DFN_QFN
 Texas_S-PVQFN-N48_EP5.15x5.15mm_ThermalVias
-QFN, 48 Pin (http://www.ti.com/lit/ds/symlink/msp430f5232.pdf#page=112), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 48 Pin (http://www.ti.com/lit/ds/symlink/msp430f5232.pdf#page=111), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 111
 49
 Package_DFN_QFN
 Texas_S-PVQFN-N64_EP4.25x4.25mm
-QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/msp430f5217.pdf#page=117), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/msp430f5217.pdf#page=120), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 69
 65
 Package_DFN_QFN
 Texas_S-PVQFN-N64_EP4.25x4.25mm_ThermalVias
-QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/msp430f5217.pdf#page=117), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 64 Pin (http://www.ti.com/lit/ds/symlink/msp430f5217.pdf#page=120), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 127
 65
 Package_DFN_QFN
 Texas_S-PWQFN-N16_EP2.1x2.1mm
-QFN, 16 Pin (http://www.ti.com/lit/ds/symlink/drv8801.pdf#page=31), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 16 Pin (http://www.ti.com/lit/ds/symlink/drv8801.pdf#page=31 MO-220 variation VGGC), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 21
 17
 Package_DFN_QFN
 Texas_S-PWQFN-N16_EP2.1x2.1mm_ThermalVias
-QFN, 16 Pin (http://www.ti.com/lit/ds/symlink/drv8801.pdf#page=31), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 16 Pin (http://www.ti.com/lit/ds/symlink/drv8801.pdf#page=31 MO-220 variation VGGC), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 31
@@ -57037,14 +57170,14 @@ QFN NoLead
 25
 Package_DFN_QFN
 Texas_S-PWQFN-N32_EP2.8x2.8mm
-QFN, 32 Pin (https://www.ti.com/lit/ds/symlink/bq25703a.pdf#page=91), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 32 Pin (https://www.ti.com/lit/ds/symlink/bq25703a.pdf#page=90), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 37
 33
 Package_DFN_QFN
 Texas_S-PWQFN-N32_EP2.8x2.8mm_ThermalVias
-QFN, 32 Pin (https://www.ti.com/lit/ds/symlink/bq25703a.pdf#page=91), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN, 32 Pin (https://www.ti.com/lit/ds/symlink/bq25703a.pdf#page=90), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 47
@@ -57107,8 +57240,8 @@ MultiRow QFN
 105
 Package_DFN_QFN
 Texas_X2QFN-12_1.6x1.6mm_P0.4mm
-Texas  X2QFN, 12 Pin (http://www.ti.com/lit/ml/mpqf391c/mpqf391c.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-Texas X2QFN DFN_QFN
+Texas  X2QFN, 12 Pin (http://www.ti.com/lit/ml/mpqf391c/mpqf391c.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas X2QFN NoLead
 0
 12
 12
@@ -57135,8 +57268,8 @@ UDFN 0.5 uQFN
 10
 Package_DFN_QFN
 UQFN-10_1.3x1.8mm_P0.4mm
-UQFN, 10 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf (Page 9)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-UQFN DFN_QFN
+UQFN, 10 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf (Page 9)), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead
 0
 10
 10
@@ -57149,8 +57282,8 @@ UQFN-10_1.4x1.8mm_P0.4mm
 10
 Package_DFN_QFN
 UQFN-10_1.6x2.1mm_P0.5mm
-UQFN, 10 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf (Page 12)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-UQFN DFN_QFN
+UQFN, 10 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf (Page 12)), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead
 0
 10
 10
@@ -57163,15 +57296,15 @@ QFN 0.5
 17
 Package_DFN_QFN
 UQFN-16-1EP_4x4mm_P0.65mm_EP2.6x2.6mm
-UQFN, 16 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/16L_UQFN_4x4x0_5mm_JQ_C04257A.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-UQFN DFN_QFN
+UQFN, 16 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/16L_UQFN_4x4x0_5mm_JQ_C04257A.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead
 0
 21
 17
 Package_DFN_QFN
 UQFN-16-1EP_4x4mm_P0.65mm_EP2.6x2.6mm_ThermalVias
-UQFN, 16 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/16L_UQFN_4x4x0_5mm_JQ_C04257A.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-UQFN DFN_QFN
+UQFN, 16 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/16L_UQFN_4x4x0_5mm_JQ_C04257A.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead
 0
 31
 17
@@ -57254,15 +57387,15 @@ UQFN NoLead
 49
 Package_DFN_QFN
 UQFN-48-1EP_6x6mm_P0.4mm_EP4.62x4.62mm
-UQFN, 48 Pin (https://github.com/KiCad/kicad-symbols/pull/1189#issuecomment-449506354), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-UQFN DFN_QFN
+UQFN, 48 Pin (https://github.com/KiCad/kicad-symbols/pull/1189#issuecomment-449506354), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead
 0
 53
 49
 Package_DFN_QFN
 UQFN-48-1EP_6x6mm_P0.4mm_EP4.62x4.62mm_ThermalVias
-UQFN, 48 Pin (https://github.com/KiCad/kicad-symbols/pull/1189#issuecomment-449506354), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-UQFN DFN_QFN
+UQFN, 48 Pin (https://github.com/KiCad/kicad-symbols/pull/1189#issuecomment-449506354), generated with kicad-footprint-generator ipc_noLead_generator.py
+UQFN NoLead
 0
 75
 49
@@ -57289,85 +57422,85 @@ VQFN NoLead
 17
 Package_DFN_QFN
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm
-VQFN, 16 Pin (https://www.st.com/resource/en/datasheet/stspin220.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 16 Pin (https://www.st.com/resource/en/datasheet/stspin220.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 21
 17
 Package_DFN_QFN
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias
-VQFN, 16 Pin (https://www.st.com/resource/en/datasheet/stspin220.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 16 Pin (https://www.st.com/resource/en/datasheet/stspin220.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 26
 17
 Package_DFN_QFN
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm
-VQFN, 16 Pin (http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 16 Pin (http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf, JEDEC MO-220 variant VEED-6), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 21
 17
 Package_DFN_QFN
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm_ThermalVias
-VQFN, 16 Pin (http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 16 Pin (http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf, JEDEC MO-220 variant VEED-6), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 26
 17
 Package_DFN_QFN
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm
-VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/tlv62095.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/tlv62095.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 21
 17
 Package_DFN_QFN
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias
-VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/tlv62095.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/tlv62095.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 26
 17
 Package_DFN_QFN
 VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm
-VQFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/20%20Lead%20VQFN%203x3x0_9mm_1_7EP%20U2B%20C04-21496a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/20%20Lead%20VQFN%203x3x0_9mm_1_7EP%20U2B%20C04-21496a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 25
 21
 Package_DFN_QFN
 VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm_ThermalVias
-VQFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/20%20Lead%20VQFN%203x3x0_9mm_1_7EP%20U2B%20C04-21496a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/20%20Lead%20VQFN%203x3x0_9mm_1_7EP%20U2B%20C04-21496a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 30
 21
 Package_DFN_QFN
 VQFN-20-1EP_3x3mm_P0.45mm_EP1.55x1.55mm
-VQFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc8246.pdf#page=264), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc8246.pdf#page=264), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 25
 21
 Package_DFN_QFN
 VQFN-20-1EP_3x3mm_P0.45mm_EP1.55x1.55mm_ThermalVias
-VQFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc8246.pdf#page=264), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc8246.pdf#page=264), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 30
 21
 Package_DFN_QFN
 VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm
-VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 34
 25
 Package_DFN_QFN
 VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias
-VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 24 Pin (http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 39
 25
@@ -57387,15 +57520,15 @@ VQFN NoLead
 29
 Package_DFN_QFN
 VQFN-28-1EP_4x5mm_P0.5mm_EP2.55x3.55mm
-VQFN, 28 Pin (http://www.ti.com/lit/ds/symlink/lm5175.pdf#page=37), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 28 Pin (http://www.ti.com/lit/ds/symlink/lm5175.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 35
 29
 Package_DFN_QFN
 VQFN-28-1EP_4x5mm_P0.5mm_EP2.55x3.55mm_ThermalVias
-VQFN, 28 Pin (http://www.ti.com/lit/ds/symlink/lm5175.pdf#page=37), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-VQFN DFN_QFN
+VQFN, 28 Pin (http://www.ti.com/lit/ds/symlink/lm5175.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
 0
 48
 29
@@ -59704,7 +59837,7 @@ NXP LGA NoLead
 8
 Package_LGA
 NXP_LGA-8_3x5mm_P1.25mm_H1.2mm
-NXP  LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+NXP  LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf#page=15), generated with kicad-footprint-generator ipc_noLead_generator.py
 NXP LGA NoLead
 0
 8
@@ -59731,9 +59864,16 @@ Texas MicroSiP NoLead
 16
 9
 Package_LGA
+Texas_SIL0010A_MicroSiP-10-1EP_3.8x3mm_P0.6mm_EP0.7x2.9mm
+Texas SIL0010A MicroSiP, 10 Pin (http://www.ti.com/lit/ml/mpds579b/mpds579b.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas MicroSiP NoLead
+0
+14
+11
+Package_LGA
 Texas_SIL0010A_MicroSiP-10-1EP_3.8x3mm_P0.6mm_EP0.7x2.9mm_ThermalVias
-Texas SIL0010A MicroSiP, 10 Pin (http://www.ti.com/lit/ml/mpds579b/mpds579b.pdf), generated with kicad-footprint-generator ipc_lga_layoutBorder_generator.py
-Texas MicroSiP LGA
+Texas SIL0010A MicroSiP, 10 Pin (http://www.ti.com/lit/ml/mpds579b/mpds579b.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas MicroSiP NoLead
 0
 18
 11
@@ -60522,9 +60662,16 @@ SSOP 0.65
 29
 17
 Package_SO
+HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm
+HTSSOP, 16 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO
+0
+20
+17
+Package_SO
 HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias
-16-Lead Plastic HTSSOP (4.4x5x1.2mm); Thermal pad with vias; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)
-SSOP 0.65
+HTSSOP, 16 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO
 0
 27
 17
@@ -60789,10 +60936,17 @@ MFSOP 4 pin SMD
 5
 Package_SO
 MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm
-MS8E Package; 8-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081662_K_MS8E.pdf)
-SSOP 0.65
+MSOP, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf#page=13), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO
 0
 13
+9
+Package_SO
+MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm_ThermalVias
+MSOP, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf#page=13), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MSOP SO
+0
+18
 9
 Package_SO
 MSOP-8-1EP_3x3mm_P0.65mm_EP1.73x1.85mm
@@ -61117,6 +61271,20 @@ SOIC 1.27
 8
 8
 Package_SO
+SO-20-1EP_7.52x12.825mm_P1.27mm_EP6.045x12.09mm_Mask3.56x4.47mm
+SO, 20 Pin (http://www.ti.com/lit/ds/symlink/opa569.pdf, http://www.ti.com/lit/an/slma004b/slma004b.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+23
+21
+Package_SO
+SO-20-1EP_7.52x12.825mm_P1.27mm_EP6.045x12.09mm_Mask3.56x4.47mm_ThermalVias
+SO, 20 Pin (http://www.ti.com/lit/ds/symlink/opa569.pdf, http://www.ti.com/lit/an/slma004b/slma004b.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+51
+21
+Package_SO
 SO-20_12.8x7.5mm_P1.27mm
 SO-20, 12.8x7.5mm, https://www.nxp.com/docs/en/data-sheet/SA605.pdf
 S0-20 
@@ -61363,14 +61531,14 @@ SOP SO
 4
 Package_SO
 SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm
-SOP, 8 Pin (Mini-Circuits XX112 housing; https://ww2.minicircuits.com/case_style/XX112.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX112.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
 0
 13
 9
 Package_SO
 SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias
-SOP, 8 Pin (Mini-Circuits XX112 housing; https://ww2.minicircuits.com/case_style/XX112.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX112.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
 0
 20
@@ -62377,6 +62545,20 @@ WSON8_4x4mm_P0.8mm
 9
 9
 Package_SON
+WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm
+WSON, 10 Pin (http://www.ti.com/lit/gpn/tps63030#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+15
+11
+Package_SON
+WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm_ThermalVias
+WSON, 10 Pin (http://www.ti.com/lit/gpn/tps63030#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+22
+11
+Package_SON
 WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm
 WSON-10 package 2x3mm body, pitch 0.5mm, see http://www.ti.com/lit/ds/symlink/tps62177.pdf
 WSON 0.5 
@@ -62693,31 +62875,31 @@ SOT-23
 3
 Package_TO_SOT_SMD
 SOT-89-3
-SOT-89-3
+SOT-89-3, http://ww1.microchip.com/downloads/en/DeviceDoc/3L_SOT-89_MB_C04-029C.pdf
 SOT-89-3
 0
-6
+3
 3
 Package_TO_SOT_SMD
 SOT-89-3_Handsoldering
 SOT-89-3 Handsoldering
 SOT-89-3 Handsoldering
 0
-5
+3
 3
 Package_TO_SOT_SMD
 SOT-89-5
-SOT-89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
-SOT-89-5 Housing 
+SOT-89-5, http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
+SOT-89-5
 0
-9
+5
 5
 Package_TO_SOT_SMD
 SOT-89-5_Handsoldering
-SOT89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
-SOT89-5 Housing 
+SOT-89-5, http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
+SOT-89-5
 0
-9
+5
 5
 Package_TO_SOT_SMD
 SOT-143
@@ -62863,6 +63045,13 @@ Package_TO_SOT_SMD
 SOT-416
 SOT-416, https://www.nxp.com/docs/en/package-information/SOT416.pdf
 SOT-416
+0
+3
+3
+Package_TO_SOT_SMD
+SOT-523
+SOT523, https://www.diodes.com/assets/Package-Files/SOT523.pdf
+SOT-523
 0
 3
 3
@@ -66786,6 +66975,13 @@ Relay Omron G6SK-2G
 0
 10
 10
+Relay_SMD
+Relay_Fujitsu_FTR-B3S
+https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-b3.pdf
+Fujitsh FTR B3S B3SA Relay J JLeg
+0
+8
+8
 Relay_SMD
 Relay_SPDT_AXICOM_HF3Series_50ohms_Pitch1.27mm
 hiqsdr.com/images/3/3e/Axicom-HF3.pdf
@@ -75256,3 +75452,10 @@ iu_trident
 0
 0
 0
+ltc1677
+SO-8_S
+
+
+0
+8
+8
