@@ -1,4 +1,4 @@
-17037827628421125
+17042593398631326
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75431,6 +75431,27 @@ TG-3541CE
 0
 10
 10
+e314-2020
+TG-3541CE
+
+
+0
+10
+10
+e314-2020
+TSL237S-LF
+TSL237S-LF
+Integrated Circuit
+0
+3
+3
+e314-2020
+ftsh_14p_connector
+
+
+0
+14
+14
 embsys_footprint
 RV-8803-C7
 
