@@ -578,17 +578,6 @@ F 3 "" H 6400 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR01
-U 1 1 5E6364B9
-P 6400 3800
-F 0 "#PWR01" H 6400 3650 50  0001 C CNN
-F 1 "VDD" H 6417 3973 50  0000 C CNN
-F 2 "" H 6400 3800 50  0001 C CNN
-F 3 "" H 6400 3800 50  0001 C CNN
-	1    6400 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C2
 U 1 1 5E63919A
 P 6600 1100
@@ -776,4 +765,10 @@ Wire Notes Line
 	5300 800  3800 800 
 Text Notes 4150 900  0    50   ~ 0
 LPUART Connector 
+Text Label 6250 3700 2    50   ~ 0
+sensor_pwr
+Wire Wire Line
+	6250 3700 6400 3700
+Wire Wire Line
+	6400 3700 6400 3800
 $EndSCHEMATC
