@@ -6,10 +6,10 @@ encoding utf-8
 Sheet 1 1
 Title "Light Sensor"
 Date "2019-02-01"
-Rev "R007"
+Rev "R010"
 Comp "Indiana University"
 Comment1 "Bryce Himebaugh"
-Comment2 ""
+Comment2 "Dark Sky Detector"
 Comment3 ""
 Comment4 ""
 $EndDescr
