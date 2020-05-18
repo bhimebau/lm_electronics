@@ -6,10 +6,10 @@ encoding utf-8
 Sheet 1 1
 Title "Light Sensor"
 Date "2019-02-01"
-Rev "R007"
+Rev "R010"
 Comp "Indiana University"
 Comment1 "Bryce Himebaugh"
-Comment2 ""
+Comment2 "Dark Sky Detector"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -596,7 +596,7 @@ L Device:R_US R8
 U 1 1 5E3FCD84
 P 9950 2450
 F 0 "R8" H 10018 2496 50  0000 L CNN
-F 1 "300" H 10018 2405 50  0000 L CNN
+F 1 "316" H 10018 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9990 2440 50  0001 C CNN
 F 3 "~" H 9950 2450 50  0001 C CNN
 	1    9950 2450
@@ -808,11 +808,11 @@ $EndComp
 Wire Wire Line
 	9000 850  9000 1000
 $Comp
-L Device:R_US 1k
+L Device:R_US R9
 U 1 1 5E5FC201
 P 4750 2150
-F 0 "1k" H 4818 2196 50  0000 L CNN
-F 1 "R_US" H 4818 2105 50  0000 L CNN
+F 0 "R9" H 4818 2196 50  0000 L CNN
+F 1 "1k" H 4818 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4790 2140 50  0001 C CNN
 F 3 "~" H 4750 2150 50  0001 C CNN
 	1    4750 2150
@@ -832,11 +832,11 @@ $EndComp
 Wire Wire Line
 	4750 1850 4750 2000
 $Comp
-L Device:R_US 1k
+L Device:R_US R1
 U 1 1 5E600377
 P 4750 2550
-F 0 "1k" H 4818 2596 50  0000 L CNN
-F 1 "R_US" H 4818 2505 50  0000 L CNN
+F 0 "R1" H 4818 2596 50  0000 L CNN
+F 1 "1k" H 4818 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4790 2540 50  0001 C CNN
 F 3 "~" H 4750 2550 50  0001 C CNN
 	1    4750 2550
